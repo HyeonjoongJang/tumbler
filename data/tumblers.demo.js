@@ -334,7 +334,7 @@ window.SPECHECKED_TUMBLERS = [
     "specs": {
       "mouthDiameterCm": 8.4,
       "capacityMl": 530,
-      "weightG": 420,
+      "weightG": 419,
       "leakproof": false,
       "ceramicCoated": true,
       "lidFullyDisassemblable": true,
