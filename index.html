@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Tumbler master / 텀블러 마스터</title>
+    <meta
+      name="description"
+      content="Tumbler master helps picky buyers filter tumblers by verified specs. Start in Korean or English."
+    />
+    <link rel="stylesheet" href="assets/styles.css" />
+    <script>
+      const target = navigator.language && navigator.language.toLowerCase().startsWith("ko")
+        ? "ko/"
+        : "en/";
+      window.location.replace(target);
+    </script>
+  </head>
+  <body class="language-gate">
+    <main class="language-gate__panel">
+      <p class="eyebrow">Tumbler master / 텀블러 마스터</p>
+      <h1>Tumbler master / 텀블러 마스터</h1>
+      <div class="language-gate__actions">
+        <a class="button-link" href="ko/">한국어로 시작</a>
+        <a class="button-link button-link--secondary" href="en/">Start in English</a>
+      </div>
+    </main>
+  </body>
+</html>
