@@ -1,6 +1,11 @@
-(function () {
+(async function () {
   const lang = document.body.dataset.lang || "en";
-  const products = window.SPECHECKED_TUMBLERS || [];
+  const dataUrl = document.body.dataset.products || "../data/products.json";
+  const pageSize = 10;
+  let products = [];
+  let visibleLimit = pageSize;
+  let lastResultKey = "";
+  let loadMoreObserver = null;
 
   const copy = {
     en: {
@@ -39,7 +44,15 @@
         gMax: "g or lighter",
         usdMax: "USD or less"
       },
-      resultCount: (shown, total) => `${shown} of ${total} demo records`,
+      resultCount: (shown, matched, total) =>
+        `${shown} shown of ${matched} matches (${total} total records)`,
+      loading: "Loading verified product data...",
+      loadError: "Product data could not be loaded.",
+      loadMore: {
+        button: (remaining) => (remaining > 10 ? `Show 10 more (${remaining} left)` : `Show ${remaining} more`),
+        done: "All matching products are shown.",
+        hint: "Scroll near the bottom or press the button to load the next 10."
+      },
       activeNone: "No filters selected yet. Start narrowing by verified specs.",
       activePrefix: "Active filters",
       card: {
@@ -107,7 +120,15 @@
         gMax: "g 이하",
         usdMax: "USD 이하"
       },
-      resultCount: (shown, total) => `데모 데이터 ${total}개 중 ${shown}개`,
+      resultCount: (shown, matched, total) =>
+        `${matched}개 결과 중 ${shown}개 표시 · 전체 ${total}개`,
+      loading: "검증 제품 데이터를 불러오는 중...",
+      loadError: "제품 데이터를 불러오지 못했습니다.",
+      loadMore: {
+        button: (remaining) => (remaining > 10 ? `10개 더 보기 (${remaining}개 남음)` : `${remaining}개 더 보기`),
+        done: "조건에 맞는 제품을 모두 표시했습니다.",
+        hint: "아래쪽으로 스크롤하거나 버튼을 누르면 다음 10개가 추가됩니다."
+      },
       activeNone: "아직 선택한 필터가 없습니다. 검증 스펙으로 바로 좁혀보세요.",
       activePrefix: "선택한 필터",
       card: {
@@ -156,6 +177,7 @@
           price: "가격",
           lid: "분해",
           dishwasher: "식세기",
+          specs: "검증 스펙",
           actions: "링크",
           sorts: [
             ["match", "조건 만족 우선"],
@@ -180,6 +202,7 @@
           price: "Price",
           lid: "Lid",
           dishwasher: "DW",
+          specs: "Verified specs",
           actions: "Links",
           sorts: [
             ["match", "Best match"],
@@ -198,6 +221,31 @@
   const activeFiltersEl = document.getElementById("activeFilters");
   const resetButton = document.getElementById("resetFilters");
   const sortBy = document.getElementById("sortBy");
+
+  async function loadProducts() {
+    resultsTitle.textContent = t.loading;
+    try {
+      const response = await fetch(dataUrl, { cache: "no-store" });
+      if (!response.ok) {
+        throw new Error(`HTTP ${response.status}`);
+      }
+      const payload = await response.json();
+      const records = Array.isArray(payload) ? payload : payload.products;
+      products = Array.isArray(records) ? records : [];
+    } catch (error) {
+      throw new Error(`${dataUrl}: ${error.message}`);
+    }
+  }
+
+  function renderLoadError(error) {
+    resultsTitle.textContent = t.loadError;
+    activeFiltersEl.replaceChildren();
+    resultsEl.replaceChildren();
+    const empty = document.createElement("div");
+    empty.className = "empty-state";
+    empty.innerHTML = `<h3>${t.loadError}</h3><p>${escapeHtml(error.message)}</p>`;
+    resultsEl.appendChild(empty);
+  }
 
   const numericFilters = [
     {
@@ -625,13 +673,23 @@
     }
   }
 
-  function renderResults() {
+  function renderResults(options = {}) {
     const state = getStateFromForm();
     updateUrl(state);
     renderActiveFilters(state);
 
     const filtered = sortProducts(products.filter((product) => productMatches(product, state)), state);
-    resultsTitle.textContent = t.resultCount(filtered.length, products.length);
+    const resultKey = JSON.stringify({
+      state,
+      ids: filtered.map((product) => product.id)
+    });
+    if (!options.preserveLimit && resultKey !== lastResultKey) {
+      visibleLimit = pageSize;
+    }
+    lastResultKey = resultKey;
+
+    const visibleProducts = filtered.slice(0, visibleLimit);
+    resultsTitle.textContent = t.resultCount(visibleProducts.length, filtered.length, products.length);
     resultsEl.replaceChildren();
 
     if (!filtered.length) {
@@ -644,9 +702,66 @@
 
     resultsEl.appendChild(createComparisonHeader());
 
-    for (const product of filtered) {
+    for (const product of visibleProducts) {
       resultsEl.appendChild(createProductRow(product, state));
     }
+
+    resultsEl.appendChild(createLoadMoreControl(filtered.length));
+  }
+
+  function createLoadMoreControl(totalMatches) {
+    if (loadMoreObserver) {
+      loadMoreObserver.disconnect();
+      loadMoreObserver = null;
+    }
+
+    const footer = document.createElement("div");
+    footer.className = "load-more";
+
+    if (visibleLimit >= totalMatches) {
+      footer.innerHTML = `<p>${t.loadMore.done}</p>`;
+      return footer;
+    }
+
+    const remaining = totalMatches - visibleLimit;
+    const button = document.createElement("button");
+    button.className = "show-more-button";
+    button.type = "button";
+    button.textContent = t.loadMore.button(remaining);
+    button.addEventListener("click", showMoreResults);
+
+    const hint = document.createElement("p");
+    hint.textContent = t.loadMore.hint;
+
+    footer.append(button, hint);
+    observeLoadMore(footer);
+    return footer;
+  }
+
+  function observeLoadMore(element) {
+    if (!("IntersectionObserver" in window)) {
+      return;
+    }
+
+    loadMoreObserver = new IntersectionObserver(
+      (entries) => {
+        if (!entries.some((entry) => entry.isIntersecting)) {
+          return;
+        }
+        showMoreResults();
+      },
+      { rootMargin: "320px 0px 420px" }
+    );
+    loadMoreObserver.observe(element);
+  }
+
+  function showMoreResults() {
+    if (loadMoreObserver) {
+      loadMoreObserver.disconnect();
+      loadMoreObserver = null;
+    }
+    visibleLimit += pageSize;
+    renderResults({ preserveLimit: true });
   }
 
   function createComparisonHeader() {
@@ -655,13 +770,7 @@
     header.setAttribute("aria-hidden", "true");
     header.innerHTML = `
       <span>${tableCopy.product}</span>
-      <span>${tableCopy.mouth}</span>
-      <span>${tableCopy.capacity}</span>
-      <span>${tableCopy.weight}</span>
-      <span>${tableCopy.leakproof}</span>
-      <span>${tableCopy.ceramic}</span>
-      <span>${tableCopy.cleaning}</span>
-      <span>${tableCopy.cup}</span>
+      <span>${tableCopy.specs}</span>
       <span>${tableCopy.price}</span>
       <span>${tableCopy.actions}</span>
     `;
@@ -693,20 +802,22 @@
             <span class="status-pill status-pill--demo">${t.card.demo}</span>
           </div>
           <h3>${escapeHtml(product.brand)}</h3>
-          <p>${escapeHtml(product.name)} · ${modeText}</p>
+          <p>${escapeHtml(product.name)} <span aria-hidden="true">&middot;</span> ${modeText}</p>
         </div>
       </div>
-      ${metricCell(tableCopy.mouth, formatValue("mouthDiameterCm", product.specs.mouthDiameterCm), "mouth")}
-      ${metricCell(tableCopy.capacity, formatValue("capacityMl", product.specs.capacityMl), "capacity")}
-      ${metricCell(tableCopy.weight, formatValue("weightG", product.specs.weightG), "weight")}
-      ${metricCell(tableCopy.leakproof, formatValue("leakproof", product.specs.leakproof), "leak")}
-      ${metricCell(tableCopy.ceramic, formatValue("ceramicCoated", product.specs.ceramicCoated), "ceramic")}
-      <div class="row-metric row-metric--cleaning">
-        <span>${tableCopy.cleaning}</span>
-        <strong>${tableCopy.lid}: ${formatValue("lidFullyDisassemblable", product.specs.lidFullyDisassemblable)}</strong>
-        <small>${tableCopy.dishwasher}: ${formatValue("dishwasherSafe", product.specs.dishwasherSafe)}</small>
+      <div class="row-specs" aria-label="${tableCopy.specs}">
+        ${metricCell(tableCopy.mouth, formatValue("mouthDiameterCm", product.specs.mouthDiameterCm), "mouth")}
+        ${metricCell(tableCopy.capacity, formatValue("capacityMl", product.specs.capacityMl), "capacity")}
+        ${metricCell(tableCopy.weight, formatValue("weightG", product.specs.weightG), "weight")}
+        ${metricCell(tableCopy.leakproof, formatValue("leakproof", product.specs.leakproof), "leak")}
+        ${metricCell(tableCopy.ceramic, formatValue("ceramicCoated", product.specs.ceramicCoated), "ceramic")}
+        <div class="row-metric row-metric--cleaning">
+          <span>${tableCopy.cleaning}</span>
+          <strong>${tableCopy.lid}: ${formatValue("lidFullyDisassemblable", product.specs.lidFullyDisassemblable)}</strong>
+          <small>${tableCopy.dishwasher}: ${formatValue("dishwasherSafe", product.specs.dishwasherSafe)}</small>
+        </div>
+        ${metricCell(tableCopy.cup, formatValue("cupHolderCompatible", product.specs.cupHolderCompatible), "cup")}
       </div>
-      ${metricCell(tableCopy.cup, formatValue("cupHolderCompatible", product.specs.cupHolderCompatible), "cup")}
       <div class="row-price">
         <strong>$${product.priceUsd}</strong>
         <span>USD</span>
@@ -827,8 +938,8 @@
       .replaceAll("'", "&#039;");
   }
 
-  filterForm.addEventListener("change", renderResults);
-  sortBy.addEventListener("change", renderResults);
+  filterForm.addEventListener("change", () => renderResults());
+  sortBy.addEventListener("change", () => renderResults());
   resetButton.addEventListener("click", () => {
     filterForm.reset();
     sortBy.value = "match";
@@ -836,5 +947,10 @@
   });
 
   buildFilters();
-  renderResults();
+  try {
+    await loadProducts();
+    renderResults();
+  } catch (error) {
+    renderLoadError(error);
+  }
 })();

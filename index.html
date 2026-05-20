@@ -34,10 +34,7 @@
       }
     </script>
     <script>
-      const target = navigator.language && navigator.language.toLowerCase().startsWith("ko")
-        ? "ko/"
-        : "en/";
-      window.location.replace(target);
+      window.location.replace("en/");
     </script>
   </head>
   <body class="language-gate">
@@ -49,8 +46,8 @@
         Tumbler Master, our tumbler comparison filter.
       </p>
       <div class="language-gate__actions">
-        <a class="button-link" href="ko/">한국어로 시작</a>
-        <a class="button-link button-link--secondary" href="en/">Start in English</a>
+        <a class="button-link" href="en/">Start in English</a>
+        <a class="button-link button-link--secondary" href="ko/">한국어로 시작</a>
       </div>
     </main>
   </body>
