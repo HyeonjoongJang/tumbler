@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-05-15",
+  "updatedAt": "2026-05-21T13:48:15.067Z",
   "products": [
     {
       "id": "stanley-slot-quencher",
@@ -189,10 +189,10 @@
     },
     {
       "id": "owala-slot-freesip",
-      "brand": "Owala",
-      "name": "FreeSip-style slot",
+      "brand": "Https://owalalife.com/",
+      "name": "FreeSip® Water Bottle",
       "priceUsd": 33,
-      "buyUrl": "https://owalalife.com/products/freesip?Color=Rock+On&Material=Stainless+Steel&Size=24oz",
+      "buyUrl": "https://owalalife.com/products/freesip",
       "accent": "#e6a23c",
       "specs": {
         "mouthDiameterCm": 5.5,
@@ -208,8 +208,8 @@
           "chug"
         ]
       },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0439/2537/3087/files/24oz_Freesip_SC_Template-1080x1080-f521e30.png?crop=center&height=500&v=1732131399&width=500",
-      "imageSourceUrl": "https://cdn.shopify.com/s/files/1/0439/2537/3087/files/24oz_Freesip_SC_Template-1080x1080-f521e30.png?crop=center&height=500&v=1732131399&width=500"
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0439/2537/3087/files/Owala-brand-logo400x400.png?v=1760045540",
+      "imageSourceUrl": "https://cdn.shopify.com/s/files/1/0439/2537/3087/files/Owala-brand-logo400x400.png?v=1760045540"
     },
     {
       "id": "swell-slot-traveler",
@@ -442,6 +442,99 @@
       },
       "imageUrl": "https://cdn.shopify.com/s/files/1/0030/1406/6249/files/2406_WEBSITE_ECOM_20oz_BLUSHED_CERAMIC_BASE_BLUSHED_FLIP_STRAW_LID.png?v=1752104518&width=1000",
       "imageSourceUrl": "https://cdn.shopify.com/s/files/1/0030/1406/6249/files/2406_WEBSITE_ECOM_20oz_BLUSHED_CERAMIC_BASE_BLUSHED_FLIP_STRAW_LID.png?v=1752104518&width=1000"
+    },
+    {
+      "id": "https-owalalife-com-import-freesip-tumbler",
+      "brand": "Https://owalalife.com/",
+      "name": "FreeSip® Tumbler | Owala®",
+      "priceUsd": null,
+      "buyUrl": "https://owalalife.com/products/freesip-tumbler",
+      "accent": "#bc4e5a",
+      "specs": {
+        "mouthDiameterCm": null,
+        "capacityMl": null,
+        "weightG": null,
+        "leakproof": null,
+        "ceramicCoated": null,
+        "lidFullyDisassemblable": null,
+        "dishwasherSafe": null,
+        "cupHolderCompatible": null,
+        "drinkingModes": [
+          "straw",
+          "chug"
+        ]
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0439/2537/3087/files/Owala-brand-logo400x400.png?v=1760045540",
+      "imageSourceUrl": "https://cdn.shopify.com/s/files/1/0439/2537/3087/files/Owala-brand-logo400x400.png?v=1760045540"
+    },
+    {
+      "id": "https-owalalife-com-import-freesip-sway",
+      "brand": "Https://owalalife.com/",
+      "name": "FreeSip® Sway | Owala®",
+      "priceUsd": null,
+      "buyUrl": "https://owalalife.com/products/freesip-sway",
+      "accent": "#bc4e5a",
+      "specs": {
+        "mouthDiameterCm": null,
+        "capacityMl": null,
+        "weightG": null,
+        "leakproof": null,
+        "ceramicCoated": null,
+        "lidFullyDisassemblable": null,
+        "dishwasherSafe": null,
+        "cupHolderCompatible": null,
+        "drinkingModes": [
+          "straw",
+          "chug"
+        ]
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0439/2537/3087/files/Owala-brand-logo400x400.png?v=1760045540",
+      "imageSourceUrl": "https://cdn.shopify.com/s/files/1/0439/2537/3087/files/Owala-brand-logo400x400.png?v=1760045540"
+    },
+    {
+      "id": "https-owalalife-com-import-freesip-twist",
+      "brand": "Https://owalalife.com/",
+      "name": "FreeSip® Twist | Owala®",
+      "priceUsd": null,
+      "buyUrl": "https://owalalife.com/products/freesip-twist",
+      "accent": "#bc4e5a",
+      "specs": {
+        "mouthDiameterCm": null,
+        "capacityMl": 532,
+        "weightG": null,
+        "leakproof": null,
+        "ceramicCoated": null,
+        "lidFullyDisassemblable": null,
+        "dishwasherSafe": null,
+        "cupHolderCompatible": null,
+        "drinkingModes": [
+          "straw",
+          "chug"
+        ]
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0439/2537/3087/files/Owala-brand-logo400x400.png?v=1760045540",
+      "imageSourceUrl": "https://cdn.shopify.com/s/files/1/0439/2537/3087/files/Owala-brand-logo400x400.png?v=1760045540"
+    },
+    {
+      "id": "https-owalalife-com-import-40oz-tumbler",
+      "brand": "Https://owalalife.com/",
+      "name": "40oz Tumbler | Owala®",
+      "priceUsd": null,
+      "buyUrl": "https://owalalife.com/products/40oz-tumbler",
+      "accent": "#bc4e5a",
+      "specs": {
+        "mouthDiameterCm": null,
+        "capacityMl": 1183,
+        "weightG": null,
+        "leakproof": null,
+        "ceramicCoated": null,
+        "lidFullyDisassemblable": null,
+        "dishwasherSafe": null,
+        "cupHolderCompatible": null,
+        "drinkingModes": []
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0439/2537/3087/files/Owala-brand-logo400x400.png?v=1760045540",
+      "imageSourceUrl": "https://cdn.shopify.com/s/files/1/0439/2537/3087/files/Owala-brand-logo400x400.png?v=1760045540"
     }
   ]
 }
