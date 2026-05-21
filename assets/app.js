@@ -5,7 +5,6 @@
   let products = [];
   let visibleLimit = pageSize;
   let lastResultKey = "";
-  let loadMoreObserver = null;
 
   const copy = {
     en: {
@@ -51,7 +50,7 @@
       loadMore: {
         button: (remaining) => (remaining > 10 ? `Show 10 more (${remaining} left)` : `Show ${remaining} more`),
         done: "All matching products are shown.",
-        hint: "Scroll near the bottom or press the button to load the next 10."
+        hint: "Press the button to load the next 10."
       },
       activeNone: "No filters selected yet. Start narrowing by verified specs.",
       activePrefix: "Active filters",
@@ -127,7 +126,7 @@
       loadMore: {
         button: (remaining) => (remaining > 10 ? `10개 더 보기 (${remaining}개 남음)` : `${remaining}개 더 보기`),
         done: "조건에 맞는 제품을 모두 표시했습니다.",
-        hint: "아래쪽으로 스크롤하거나 버튼을 누르면 다음 10개가 추가됩니다."
+        hint: "버튼을 누르면 다음 10개가 추가됩니다."
       },
       activeNone: "아직 선택한 필터가 없습니다. 검증 스펙으로 바로 좁혀보세요.",
       activePrefix: "선택한 필터",
@@ -710,11 +709,6 @@
   }
 
   function createLoadMoreControl(totalMatches) {
-    if (loadMoreObserver) {
-      loadMoreObserver.disconnect();
-      loadMoreObserver = null;
-    }
-
     const footer = document.createElement("div");
     footer.className = "load-more";
 
@@ -734,32 +728,10 @@
     hint.textContent = t.loadMore.hint;
 
     footer.append(button, hint);
-    observeLoadMore(footer);
     return footer;
   }
 
-  function observeLoadMore(element) {
-    if (!("IntersectionObserver" in window)) {
-      return;
-    }
-
-    loadMoreObserver = new IntersectionObserver(
-      (entries) => {
-        if (!entries.some((entry) => entry.isIntersecting)) {
-          return;
-        }
-        showMoreResults();
-      },
-      { rootMargin: "320px 0px 420px" }
-    );
-    loadMoreObserver.observe(element);
-  }
-
   function showMoreResults() {
-    if (loadMoreObserver) {
-      loadMoreObserver.disconnect();
-      loadMoreObserver = null;
-    }
     visibleLimit += pageSize;
     renderResults({ preserveLimit: true });
   }
