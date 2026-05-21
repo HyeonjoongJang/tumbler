@@ -236,8 +236,7 @@ h1 {
 
 .field,
 .check-field,
-.sort-control,
-.note-input {
+.sort-control {
   display: grid;
   gap: 7px;
   color: var(--muted);
@@ -247,8 +246,7 @@ h1 {
 
 .field select,
 .field input,
-.sort-control select,
-.note-input textarea {
+.sort-control select {
   width: 100%;
   border: 1px solid var(--line-strong);
   border-radius: 8px;
@@ -266,8 +264,7 @@ h1 {
 
 .field select:focus,
 .field input:focus,
-.sort-control select:focus,
-.note-input textarea:focus {
+.sort-control select:focus {
   border-color: var(--green);
   box-shadow: 0 0 0 3px rgba(31, 122, 92, 0.16);
 }
@@ -342,8 +339,6 @@ h1 {
 }
 
 .reset-button,
-.notes-toggle,
-.add-note,
 .buy-link,
 .button-link {
   display: inline-flex;
@@ -509,24 +504,26 @@ h1 {
   gap: 8px;
 }
 
-.row-kicker {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 5px;
-  margin-bottom: 5px;
-}
-
 .row-copy h3 {
   margin: 0;
-  font-size: 1rem;
-  line-height: 1.18;
+  font-size: 1.16rem;
+  line-height: 1.14;
 }
 
 .row-copy p {
-  margin: 3px 0 0;
   color: var(--muted);
-  font-size: 0.82rem;
-  line-height: 1.3;
+  line-height: 1.35;
+}
+
+.row-copy .row-brand {
+  margin: 6px 0 0;
+  font-size: 0.84rem;
+  font-weight: 800;
+}
+
+.row-copy .row-meta {
+  margin: 4px 0 0;
+  font-size: 0.9rem;
 }
 
 .row-metric {
@@ -578,15 +575,13 @@ h1 {
   gap: 6px;
 }
 
-.row-actions .notes-toggle,
 .row-actions .buy-link {
   min-height: 34px;
   padding: 0 8px;
   font-size: 0.82rem;
 }
 
-.product-row .source-note,
-.product-row .notes-panel {
+.product-row .source-note {
   grid-column: 1 / -1;
 }
 
@@ -691,30 +686,6 @@ h1 {
   min-width: 0;
 }
 
-.product-kicker {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 6px;
-  margin-bottom: 7px;
-}
-
-.status-pill {
-  display: inline-flex;
-  min-height: 25px;
-  align-items: center;
-  padding: 4px 8px;
-  border-radius: 999px;
-  background: #e6f3ed;
-  color: var(--green);
-  font-size: 0.74rem;
-  font-weight: 850;
-}
-
-.status-pill--demo {
-  background: #eef2f7;
-  color: #546070;
-}
-
 .product-card h3 {
   margin: 0;
   font-size: 1.18rem;
@@ -786,12 +757,6 @@ h1 {
   gap: 10px;
 }
 
-.notes-toggle {
-  border-color: var(--line-strong);
-  background: #fff;
-  color: var(--ink);
-}
-
 .buy-link {
   background: var(--green);
   color: #fff;
@@ -801,60 +766,6 @@ h1 {
   margin: -6px 0 0;
   color: var(--muted);
   font-size: 0.8rem;
-}
-
-.notes-panel {
-  display: grid;
-  gap: 12px;
-  padding-top: 12px;
-  border-top: 1px solid var(--line);
-}
-
-.notes-heading h4 {
-  margin: 0;
-  font-size: 1rem;
-}
-
-.notes-heading p {
-  margin: 4px 0 0;
-  font-size: 0.86rem;
-}
-
-.notes-list {
-  display: grid;
-  gap: 8px;
-}
-
-.note-item,
-.empty-notes {
-  margin: 0;
-  padding: 10px;
-  border-radius: 8px;
-  background: var(--surface-strong);
-}
-
-.note-item p {
-  margin: 0;
-  color: var(--ink);
-}
-
-.note-item time {
-  display: block;
-  margin-top: 5px;
-  color: var(--muted);
-  font-size: 0.75rem;
-  font-weight: 800;
-}
-
-.note-input textarea {
-  min-height: 88px;
-  padding: 10px 12px;
-  resize: vertical;
-}
-
-.add-note {
-  background: var(--ink);
-  color: #fff;
 }
 
 .empty-state {
