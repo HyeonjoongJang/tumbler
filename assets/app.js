@@ -732,8 +732,14 @@
   }
 
   function showMoreResults() {
+    const scrollY = window.scrollY;
     visibleLimit += pageSize;
     renderResults({ preserveLimit: true });
+    requestAnimationFrame(() => {
+      requestAnimationFrame(() => {
+        window.scrollTo(0, scrollY);
+      });
+    });
   }
 
   function createComparisonHeader() {
