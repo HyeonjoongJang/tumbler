@@ -589,16 +589,6 @@
     return true;
   }
 
-  function activeFilterCount(state) {
-    return [
-      ...numericFilters.map((filter) => Boolean(state[filter.name])),
-      ...booleanFilters.map((filter) => Boolean(state[filter.name])),
-      state.drinkingModes.length > 0,
-      Boolean(state.search),
-      Boolean(state.brand)
-    ].filter(Boolean).length;
-  }
-
   function sortProducts(items, state) {
     const sorted = [...items];
 
@@ -794,7 +784,7 @@
     resultsEl.appendChild(createComparisonHeader());
 
     for (const product of visibleProducts) {
-      resultsEl.appendChild(createProductRow(product, state));
+      resultsEl.appendChild(createProductRow(product));
     }
 
     resultsEl.appendChild(createLoadMoreControl(filtered.length));
@@ -847,14 +837,18 @@
     return header;
   }
 
-  function createProductRow(product, state) {
+  function createProductRow(product) {
     const template = document.createElement("article");
     template.className = "product-row";
     template.dataset.productId = product.id;
     template.style.setProperty("--accent", product.accent || "#2f6f73");
 
     const modeText = formatValue("drinkingModes", product.specs.drinkingModes);
-    const statusText = activeFilterCount(state) ? t.card.match : t.card.compare;
+    const capacityText = knownNumber(product.specs.capacityMl) ? `${product.specs.capacityMl} ml` : t.options.unknown;
+    const metaParts = [capacityText];
+    if (modeText !== t.options.unknown) {
+      metaParts.push(modeText);
+    }
 
     const visual = product.imageUrl
       ? `<img src="${escapeHtml(product.imageUrl)}" alt="${escapeHtml(productName(product))}">`
@@ -867,12 +861,9 @@
           ${visual}
         </div>
         <div class="row-copy">
-          <div class="row-kicker">
-            <span class="status-pill">${statusText}</span>
-            <span class="status-pill status-pill--demo">${t.card.demo}</span>
-          </div>
-          <h3>${escapeHtml(product.brand)}</h3>
-          <p>${escapeHtml(product.name)} <span aria-hidden="true">&middot;</span> ${modeText}</p>
+          <h3>${escapeHtml(product.name)}</h3>
+          <p class="row-brand">${escapeHtml(product.brand)}</p>
+          <p class="row-meta">${escapeHtml(metaParts.join(" / "))}</p>
         </div>
       </div>
       <div class="row-specs" aria-label="${tableCopy.specs}">
@@ -893,52 +884,12 @@
         <span>USD</span>
       </div>
       <div class="row-actions">
-        <button class="notes-toggle" type="button" aria-expanded="false">${t.card.notes}</button>
         <a class="buy-link" href="${hasBuyUrl ? escapeHtml(product.buyUrl) : "#"}" ${hasBuyUrl ? 'target="_blank" rel="noreferrer"' : ""} data-disabled-buy="${String(!hasBuyUrl)}">${t.card.buy}</a>
       </div>
       <p class="source-note">${t.card.source}</p>
-      <section class="notes-panel" hidden>
-        <div class="notes-heading">
-          <h4>${t.card.notes}</h4>
-          <p>${t.card.notesHint}</p>
-        </div>
-        <div class="notes-list"></div>
-        <label class="note-input">
-          <span>${t.card.notes}</span>
-          <textarea rows="3" placeholder="${t.card.notePlaceholder}"></textarea>
-        </label>
-        <button class="add-note" type="button">${t.card.addNote}</button>
-      </section>
     `;
 
-    const notesToggle = template.querySelector(".notes-toggle");
-    const notesPanel = template.querySelector(".notes-panel");
-    const notesList = template.querySelector(".notes-list");
-    const addNote = template.querySelector(".add-note");
-    const textarea = template.querySelector("textarea");
     const buyLink = template.querySelector(".buy-link");
-
-    notesToggle.addEventListener("click", () => {
-      const isOpen = !notesPanel.hidden;
-      notesPanel.hidden = isOpen;
-      notesToggle.setAttribute("aria-expanded", String(!isOpen));
-      if (!isOpen) {
-        renderNotes(product.id, notesList);
-      }
-    });
-
-    addNote.addEventListener("click", () => {
-      const text = textarea.value.trim();
-      if (!text) {
-        textarea.focus();
-        return;
-      }
-      const notes = loadNotes(product.id);
-      notes.unshift({ text, createdAt: new Date().toISOString() });
-      saveNotes(product.id, notes);
-      textarea.value = "";
-      renderNotes(product.id, notesList);
-    });
 
     buyLink.addEventListener("click", (event) => {
       if (buyLink.dataset.disabledBuy === "true") {
@@ -961,42 +912,6 @@
         <strong>${value}</strong>
       </div>
     `;
-  }
-
-  function loadNotes(productId) {
-    try {
-      return JSON.parse(localStorage.getItem(`specchecked-notes:${productId}`)) || [];
-    } catch {
-      return [];
-    }
-  }
-
-  function saveNotes(productId, notes) {
-    localStorage.setItem(`specchecked-notes:${productId}`, JSON.stringify(notes));
-  }
-
-  function renderNotes(productId, target) {
-    const notes = loadNotes(productId);
-    target.replaceChildren();
-
-    if (!notes.length) {
-      const empty = document.createElement("p");
-      empty.className = "empty-notes";
-      empty.textContent = t.card.emptyNotes;
-      target.appendChild(empty);
-      return;
-    }
-
-    for (const note of notes) {
-      const item = document.createElement("div");
-      item.className = "note-item";
-      const date = new Intl.DateTimeFormat(lang === "ko" ? "ko-KR" : "en-US", {
-        month: "short",
-        day: "numeric"
-      }).format(new Date(note.createdAt));
-      item.innerHTML = `<p>${escapeHtml(note.text)}</p><time>${date}</time>`;
-      target.appendChild(item);
-    }
   }
 
   function cleanString(value) {
