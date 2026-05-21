@@ -221,6 +221,11 @@ h1 {
   border-top: 1px solid var(--line);
 }
 
+.filter-group--top {
+  padding-top: 0;
+  border-top: 0;
+}
+
 .filter-group h3 {
   margin: 0 0 2px;
   color: var(--muted);

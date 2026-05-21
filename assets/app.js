@@ -9,6 +9,7 @@
   const copy = {
     en: {
       groups: {
+        browse: "Browse",
         cleaning: "Cleaning",
         carry: "Leak & carry",
         material: "Material",
@@ -16,6 +17,8 @@
         buying: "Buying"
       },
       filters: {
+        search: "Search",
+        brand: "Brand",
         mouthMin: "Mouth diameter",
         leakproof: "Leakproof",
         ceramicCoated: "Ceramic coated",
@@ -29,6 +32,7 @@
       },
       options: {
         any: "Any",
+        allBrands: "All brands",
         yes: "Yes",
         no: "No",
         unknown: "Unknown",
@@ -42,6 +46,9 @@
         mlMin: "ml or larger",
         gMax: "g or lighter",
         usdMax: "USD or less"
+      },
+      placeholders: {
+        search: "Brand or product name"
       },
       resultCount: (shown, matched, total) =>
         `${shown} shown of ${matched} matches (${total} total records)`,
@@ -307,6 +314,8 @@
     state.drinkingModes = params.get("drinkingModes")
       ? params.get("drinkingModes").split(",").filter((mode) => modeOptions.includes(mode))
       : [];
+    state.search = cleanString(params.get("q"));
+    state.brand = cleanString(params.get("brand"));
     state.sortBy = params.get("sort") || "match";
     return state;
   }
@@ -402,6 +411,7 @@
     const state = readQueryState();
     const groups = ["cleaning", "carry", "material", "size", "buying"];
     filterForm.replaceChildren();
+    filterForm.appendChild(createBrowseGroup(state));
 
     for (const group of groups) {
       const block = document.createElement("section");
@@ -428,6 +438,59 @@
     buildSortOptions(state.sortBy);
   }
 
+  function createBrowseGroup(state) {
+    const block = document.createElement("section");
+    block.className = "filter-group filter-group--top";
+
+    const heading = document.createElement("h3");
+    heading.textContent = t.groups.browse || "Browse";
+    block.appendChild(heading);
+
+    const searchField = document.createElement("label");
+    searchField.className = "field";
+    searchField.innerHTML = `<span>${t.filters.search || "Search"}</span>`;
+
+    const searchInput = document.createElement("input");
+    searchInput.name = "search";
+    searchInput.type = "search";
+    searchInput.placeholder = (t.placeholders && t.placeholders.search) || "Brand or product name";
+    searchInput.autocomplete = "off";
+    searchInput.value = state.search || "";
+    searchField.appendChild(searchInput);
+
+    const brandField = document.createElement("label");
+    brandField.className = "field";
+    brandField.innerHTML = `<span>${t.filters.brand || "Brand"}</span>`;
+
+    const brandSelect = document.createElement("select");
+    brandSelect.name = "brand";
+
+    const allOption = document.createElement("option");
+    allOption.value = "";
+    allOption.textContent = t.options.allBrands || "All brands";
+    brandSelect.appendChild(allOption);
+
+    const brands = getBrandOptions();
+    for (const brand of brands) {
+      const option = document.createElement("option");
+      option.value = brand;
+      option.textContent = brand;
+      brandSelect.appendChild(option);
+    }
+
+    brandSelect.value = brands.includes(state.brand) ? state.brand : "";
+    brandField.appendChild(brandSelect);
+
+    block.append(searchField, brandField);
+    return block;
+  }
+
+  function getBrandOptions() {
+    return [...new Set(products.map((product) => cleanString(product.brand)).filter(Boolean))].sort((a, b) =>
+      compareText(a, b)
+    );
+  }
+
   function getStateFromForm() {
     const data = new FormData(filterForm);
     const state = {};
@@ -442,6 +505,8 @@
     }
 
     state.drinkingModes = data.getAll("drinkingModes");
+    state.search = cleanString(data.get("search"));
+    state.brand = cleanString(data.get("brand"));
     state.sortBy = sortBy.value;
     return state;
   }
@@ -465,6 +530,14 @@
       params.set("drinkingModes", state.drinkingModes.join(","));
     }
 
+    if (state.search) {
+      params.set("q", state.search);
+    }
+
+    if (state.brand) {
+      params.set("brand", state.brand);
+    }
+
     if (state.sortBy && state.sortBy !== "match") {
       params.set("sort", state.sortBy);
     }
@@ -480,6 +553,15 @@
 
   function productMatches(product, state) {
     const specs = product.specs;
+    const searchBlob = normalizeText(`${product.brand || ""} ${product.name || ""} ${product.id || ""}`);
+
+    if (state.search && !searchBlob.includes(normalizeText(state.search))) {
+      return false;
+    }
+
+    if (state.brand && cleanString(product.brand) !== state.brand) {
+      return false;
+    }
 
     for (const filter of numericFilters) {
       const value = state[filter.name];
@@ -511,7 +593,9 @@
     return [
       ...numericFilters.map((filter) => Boolean(state[filter.name])),
       ...booleanFilters.map((filter) => Boolean(state[filter.name])),
-      state.drinkingModes.length > 0
+      state.drinkingModes.length > 0,
+      Boolean(state.search),
+      Boolean(state.brand)
     ].filter(Boolean).length;
   }
 
@@ -648,6 +732,14 @@
 
     if (state.drinkingModes.length) {
       chips.push(`${t.filters.drinkingModes}: ${state.drinkingModes.map((mode) => t.options[mode]).join(" / ")}`);
+    }
+
+    if (state.search) {
+      chips.push(`${t.filters.search || "Search"}: ${state.search}`);
+    }
+
+    if (state.brand) {
+      chips.push(`${t.filters.brand || "Brand"}: ${state.brand}`);
     }
 
     activeFiltersEl.replaceChildren();
@@ -907,6 +999,16 @@
     }
   }
 
+  function cleanString(value) {
+    return String(value ?? "").trim();
+  }
+
+  function normalizeText(value) {
+    return cleanString(value)
+      .toLowerCase()
+      .replace(/[^a-z0-9가-힣]+/g, " ");
+  }
+
   function escapeHtml(value) {
     return String(value)
       .replaceAll("&", "&amp;")
@@ -917,6 +1019,11 @@
   }
 
   filterForm.addEventListener("change", () => renderResults());
+  filterForm.addEventListener("input", (event) => {
+    if (event.target instanceof HTMLInputElement && event.target.name === "search") {
+      renderResults();
+    }
+  });
   sortBy.addEventListener("change", () => renderResults());
   resetButton.addEventListener("click", () => {
     filterForm.reset();
@@ -927,6 +1034,7 @@
   buildFilters();
   try {
     await loadProducts();
+    buildFilters();
     renderResults();
   } catch (error) {
     renderLoadError(error);
