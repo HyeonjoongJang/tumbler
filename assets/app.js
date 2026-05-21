@@ -1024,6 +1024,10 @@
       renderResults();
     }
   });
+  filterForm.addEventListener("submit", (event) => {
+    event.preventDefault();
+    renderResults();
+  });
   sortBy.addEventListener("change", () => renderResults());
   resetButton.addEventListener("click", () => {
     filterForm.reset();
