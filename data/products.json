@@ -1,681 +1,912 @@
-﻿{
-    "schemaVersion":  1,
-    "updatedAt":  "2026-05-21T14:26:31.9374120Z",
-    "products":  [
-                     {
-                         "id":  "stanley-slot-quencher",
-                         "brand":  "Stanley",
-                         "name":  "Quencher-style slot",
-                         "priceUsd":  45,
-                         "buyUrl":  "https://www.stanley1913.com/products/adventure-quencher-travel-tumbler-40-oz",
-                         "accent":  "#8ab7a2",
-                         "specs":  {
-                                       "mouthDiameterCm":  8.9,
-                                       "capacityMl":  1180,
-                                       "weightG":  650,
-                                       "leakproof":  false,
-                                       "ceramicCoated":  false,
-                                       "lidFullyDisassemblable":  true,
-                                       "dishwasherSafe":  true,
-                                       "cupHolderCompatible":  true,
-                                       "drinkingModes":  [
-                                                             "straw"
-                                                         ]
-                                   },
-                         "imageUrl":  "https://www.stanley1913.com/cdn/shop/files/Web_PNG_Square-The_Quencher_H2.0_FlowState_Tumbler_40OZ_-_Soft_Orchid_-_Front.png?v=1768921701\u0026width=1920",
-                         "imageSourceUrl":  "https://www.stanley1913.com/cdn/shop/files/Web_PNG_Square-The_Quencher_H2.0_FlowState_Tumbler_40OZ_-_Soft_Orchid_-_Front.png?v=1768921701\u0026width=1920"
-                     },
-                     {
-                         "id":  "hydro-flask-slot-wide",
-                         "brand":  "Hydro Flask",
-                         "name":  "Wide-mouth bottle slot",
-                         "priceUsd":  40,
-                         "buyUrl":  "https://www.hydroflask.com/32-oz-wide-mouth-nectar-orange",
-                         "accent":  "#4f9dd9",
-                         "specs":  {
-                                       "mouthDiameterCm":  5.8,
-                                       "capacityMl":  946,
-                                       "weightG":  445,
-                                       "leakproof":  true,
-                                       "ceramicCoated":  false,
-                                       "lidFullyDisassemblable":  true,
-                                       "dishwasherSafe":  true,
-                                       "cupHolderCompatible":  false,
-                                       "drinkingModes":  [
-                                                             "chug",
-                                                             "sip"
-                                                         ]
-                                   },
-                         "imageUrl":  "https://www.hydroflask.com/media/catalog/product/cache/b2f1ce2dfe10d3d31bf2056bf6e0d10f/W/3/W32BTS464-Indigo-StraightOn.jpg",
-                         "imageSourceUrl":  "https://www.hydroflask.com/media/catalog/product/cache/b2f1ce2dfe10d3d31bf2056bf6e0d10f/W/3/W32BTS464-Indigo-StraightOn.jpg"
-                     },
-                     {
-                         "id":  "yeti-slot-rambler",
-                         "brand":  "YETI",
-                         "name":  "Rambler travel slot",
-                         "priceUsd":  42,
-                         "buyUrl":  "https://www.yeti.com/drinkware/mugs/mug-30oz.html",
-                         "accent":  "#d65a31",
-                         "specs":  {
-                                       "mouthDiameterCm":  8.5,
-                                       "capacityMl":  887,
-                                       "weightG":  570,
-                                       "leakproof":  true,
-                                       "ceramicCoated":  false,
-                                       "lidFullyDisassemblable":  true,
-                                       "dishwasherSafe":  true,
-                                       "cupHolderCompatible":  true,
-                                       "drinkingModes":  [
-                                                             "sip"
-                                                         ]
-                                   },
-                         "imageUrl":  "https://yeti-webmedia.imgix.net/asset/0b6f9706-6f49-4c2a-a717-fc7bb077181a/W/Drinkware_MugMS_30oz_Seafoam_Studio_PrimaryB.png?auto=format%2Ccompress\u0026bg=0fff\u0026h=846\u0026w=846",
-                         "imageSourceUrl":  "https://yeti-webmedia.imgix.net/asset/0b6f9706-6f49-4c2a-a717-fc7bb077181a/W/Drinkware_MugMS_30oz_Seafoam_Studio_PrimaryB.png?auto=format%2Ccompress\u0026bg=0fff\u0026h=846\u0026w=846"
-                     },
-                     {
-                         "id":  "fellow-slot-carter",
-                         "brand":  "Fellow",
-                         "name":  "Carter ceramic slot",
-                         "priceUsd":  35,
-                         "buyUrl":  "https://fellowproducts.com/collections/travel-mugs/products/carter-move-mug",
-                         "accent":  "#2f6f73",
-                         "specs":  {
-                                       "mouthDiameterCm":  7.7,
-                                       "capacityMl":  473,
-                                       "weightG":  304,
-                                       "leakproof":  true,
-                                       "ceramicCoated":  true,
-                                       "lidFullyDisassemblable":  false,
-                                       "dishwasherSafe":  false,
-                                       "cupHolderCompatible":  true,
-                                       "drinkingModes":  [
-                                                             "sip"
-                                                         ]
-                                   },
-                         "imageUrl":  "https://fellowproducts.com/cdn/shop/files/Web_PDP_CarterMoveMug-12oz_ElectricCobalt_1.png?v=1776292482\u0026width=1920",
-                         "imageSourceUrl":  "https://fellowproducts.com/cdn/shop/files/Web_PDP_CarterMoveMug-12oz_ElectricCobalt_1.png?v=1776292482\u0026width=1920"
-                     },
-                     {
-                         "id":  "kinto-slot-travel",
-                         "brand":  "Kinto",
-                         "name":  "Travel tumbler slot",
-                         "priceUsd":  38,
-                         "buyUrl":  "https://kinto-usa.com/products/20941",
-                         "accent":  "#b5744f",
-                         "specs":  {
-                                       "mouthDiameterCm":  7,
-                                       "capacityMl":  500,
-                                       "weightG":  310,
-                                       "leakproof":  true,
-                                       "ceramicCoated":  false,
-                                       "lidFullyDisassemblable":  true,
-                                       "dishwasherSafe":  false,
-                                       "cupHolderCompatible":  true,
-                                       "drinkingModes":  [
-                                                             "sip"
-                                                         ]
-                                   },
-                         "imageUrl":  "https://kinto-usa.com/cdn/shop/articles/210721_productstory_traveltumbler_top_x283.jpg?v=1627435394",
-                         "imageSourceUrl":  "https://kinto-usa.com/cdn/shop/articles/210721_productstory_traveltumbler_top_x283.jpg?v=1627435394"
-                     },
-                     {
-                         "id":  "zojirushi-slot-stainless",
-                         "brand":  "Zojirushi",
-                         "name":  "Stainless mug slot",
-                         "priceUsd":  32,
-                         "buyUrl":  "https://www.zojirushi.com/app/product/smsf",
-                         "accent":  "#7a8d9b",
-                         "specs":  {
-                                       "mouthDiameterCm":  4.4,
-                                       "capacityMl":  480,
-                                       "weightG":  255,
-                                       "leakproof":  true,
-                                       "ceramicCoated":  false,
-                                       "lidFullyDisassemblable":  true,
-                                       "dishwasherSafe":  false,
-                                       "cupHolderCompatible":  true,
-                                       "drinkingModes":  [
-                                                             "sip"
-                                                         ]
-                                   },
-                         "imageUrl":  "https://www.zojirushi.com/user/images/prod/315.2.jpg",
-                         "imageSourceUrl":  "https://www.zojirushi.com/user/images/prod/315.2.jpg"
-                     },
-                     {
-                         "id":  "thermos-slot-commuter",
-                         "brand":  "Thermos",
-                         "name":  "Commuter mug slot",
-                         "priceUsd":  28,
-                         "buyUrl":  "https://thermos.com/products/stainless-king-coffee-mug-16oz",
-                         "accent":  "#9c3d44",
-                         "specs":  {
-                                       "mouthDiameterCm":  6.6,
-                                       "capacityMl":  470,
-                                       "weightG":  365,
-                                       "leakproof":  true,
-                                       "ceramicCoated":  false,
-                                       "lidFullyDisassemblable":  true,
-                                       "dishwasherSafe":  false,
-                                       "cupHolderCompatible":  true,
-                                       "drinkingModes":  [
-                                                             "sip"
-                                                         ]
-                                   },
-                         "imageUrl":  "https://thermos.com/cdn/shop/products/tms-o-sk1600mdbw4_front_angle.jpg?v=1623680197\u0026width=1080",
-                         "imageSourceUrl":  "https://thermos.com/cdn/shop/products/tms-o-sk1600mdbw4_front_angle.jpg?v=1623680197\u0026width=1080"
-                     },
-                     {
-                         "id":  "contigo-slot-autoseal",
-                         "brand":  "Contigo",
-                         "name":  "Autoseal slot",
-                         "priceUsd":  24,
-                         "buyUrl":  "https://www.gocontigo.com/explore-products/mugs/autoseal-west-loop-vacuum-insulated-stainless-steel-travel-mug-with-easy-clean-lid--20-oz/SAP_2169251.html",
-                         "accent":  "#407c87",
-                         "specs":  {
-                                       "mouthDiameterCm":  6.2,
-                                       "capacityMl":  590,
-                                       "weightG":  340,
-                                       "leakproof":  true,
-                                       "ceramicCoated":  false,
-                                       "lidFullyDisassemblable":  false,
-                                       "dishwasherSafe":  true,
-                                       "cupHolderCompatible":  true,
-                                       "drinkingModes":  [
-                                                             "sip"
-                                                         ]
-                                   },
-                         "imageUrl":  "https://newellbrands.imgix.net/46746784-2014-3118-838d-8654f5570057/46746784-2014-3118-838d-8654f5570057.jpg?auto=format%2Ccompress\u0026h=400\u0026w=400",
-                         "imageSourceUrl":  "https://newellbrands.imgix.net/46746784-2014-3118-838d-8654f5570057/46746784-2014-3118-838d-8654f5570057.jpg?auto=format%2Ccompress\u0026h=400\u0026w=400"
-                     },
-                     {
-                         "id":  "swell-slot-traveler",
-                         "brand":  "S\u0027well",
-                         "name":  "Traveler slot",
-                         "priceUsd":  35,
-                         "buyUrl":  "https://www.swell.com/products/traveler-16oz",
-                         "accent":  "#bb4f6b",
-                         "specs":  {
-                                       "mouthDiameterCm":  7.5,
-                                       "capacityMl":  470,
-                                       "weightG":  315,
-                                       "leakproof":  true,
-                                       "ceramicCoated":  false,
-                                       "lidFullyDisassemblable":  true,
-                                       "dishwasherSafe":  false,
-                                       "cupHolderCompatible":  true,
-                                       "drinkingModes":  [
-                                                             "sip"
-                                                         ]
-                                   },
-                         "imageUrl":  "https://www.swell.com/cdn/shop/files/Swell-Water-Bottle-Traveler-16oz-Wood-Print-Teakwood-Front.png?v=1719058524\u0026width=2500",
-                         "imageSourceUrl":  "https://www.swell.com/cdn/shop/files/Swell-Water-Bottle-Traveler-16oz-Wood-Print-Teakwood-Front.png?v=1719058524\u0026width=2500"
-                     },
-                     {
-                         "id":  "miir-slot-tumbler",
-                         "brand":  "MiiR",
-                         "name":  "Travel tumbler slot",
-                         "priceUsd":  30,
-                         "buyUrl":  "https://www.miir.com/products/everywhere-straw-tumbler",
-                         "accent":  "#65735f",
-                         "specs":  {
-                                       "mouthDiameterCm":  8,
-                                       "capacityMl":  590,
-                                       "weightG":  355,
-                                       "leakproof":  false,
-                                       "ceramicCoated":  false,
-                                       "lidFullyDisassemblable":  true,
-                                       "dishwasherSafe":  true,
-                                       "cupHolderCompatible":  true,
-                                       "drinkingModes":  [
-                                                             "sip"
-                                                         ]
-                                   },
-                         "imageUrl":  "https://www.miir.com/cdn/shop/files/WebPDP-16oz_Everywhere_Straw_Tumbler_Haze_Purple_Studio__EWST1PN16221_270.jpg?v=1719520259\u0026width=1946",
-                         "imageSourceUrl":  "https://www.miir.com/cdn/shop/files/WebPDP-16oz_Everywhere_Straw_Tumbler_Haze_Purple_Studio__EWST1PN16221_270.jpg?v=1719520259\u0026width=1946"
-                     },
-                     {
-                         "id":  "corkcicle-slot-commuter",
-                         "brand":  "Corkcicle",
-                         "name":  "Commuter cup slot",
-                         "priceUsd":  38,
-                         "buyUrl":  "https://corkcicle.com/products/cruiser",
-                         "accent":  "#8e67a8",
-                         "specs":  {
-                                       "mouthDiameterCm":  7.8,
-                                       "capacityMl":  710,
-                                       "weightG":  390,
-                                       "leakproof":  true,
-                                       "ceramicCoated":  true,
-                                       "lidFullyDisassemblable":  null,
-                                       "dishwasherSafe":  true,
-                                       "cupHolderCompatible":  true,
-                                       "drinkingModes":  [
-                                                             "sip"
-                                                         ]
-                                   },
-                         "imageUrl":  "https://cdn.shopify.com/s/files/1/0105/8732/files/ef4f8412027f--Cruiser-PDP-RAINBOW.png?v=1743530074",
-                         "imageSourceUrl":  "https://cdn.shopify.com/s/files/1/0105/8732/files/ef4f8412027f--Cruiser-PDP-RAINBOW.png?v=1743530074"
-                     },
-                     {
-                         "id":  "simple-modern-slot-trek",
-                         "brand":  "Simple Modern",
-                         "name":  "Trek-style slot",
-                         "priceUsd":  30,
-                         "buyUrl":  "https://www.simplemodern.com/products/trek-tumbler-8",
-                         "accent":  "#d18453",
-                         "specs":  {
-                                       "mouthDiameterCm":  8.8,
-                                       "capacityMl":  1180,
-                                       "weightG":  610,
-                                       "leakproof":  true,
-                                       "ceramicCoated":  false,
-                                       "lidFullyDisassemblable":  true,
-                                       "dishwasherSafe":  true,
-                                       "cupHolderCompatible":  true,
-                                       "drinkingModes":  [
-                                                             "straw",
-                                                             "sip"
-                                                         ]
-                                   },
-                         "imageUrl":  "https://www.simplemodern.com/cdn/shop/files/TRK-SH-40-BUDU-M_2_1_900x.png?v=1744139498",
-                         "imageSourceUrl":  "https://www.simplemodern.com/cdn/shop/files/TRK-SH-40-BUDU-M_2_1_900x.png?v=1744139498"
-                     },
-                     {
-                         "id":  "brumate-slot-era",
-                         "brand":  "BruMate",
-                         "name":  "Era-style slot",
-                         "priceUsd":  45,
-                         "buyUrl":  "https://www.brumate.com/products/era-40oz-dune",
-                         "accent":  "#505e86",
-                         "specs":  {
-                                       "mouthDiameterCm":  8.6,
-                                       "capacityMl":  1180,
-                                       "weightG":  665,
-                                       "leakproof":  true,
-                                       "ceramicCoated":  false,
-                                       "lidFullyDisassemblable":  true,
-                                       "dishwasherSafe":  true,
-                                       "cupHolderCompatible":  true,
-                                       "drinkingModes":  [
-                                                             "straw"
-                                                         ]
-                                   },
-                         "imageUrl":  "https://cdn.shopify.com/s/files/1/1114/2308/files/era-40-dune.png?v=1762278178",
-                         "imageSourceUrl":  "https://cdn.shopify.com/s/files/1/1114/2308/files/era-40-dune.png?v=1762278178"
-                     },
-                     {
-                         "id":  "ello-slot-campy",
-                         "brand":  "Ello",
-                         "name":  "Ceramic camp slot",
-                         "priceUsd":  20,
-                         "buyUrl":  "https://www.elloproducts.com/products/campy-18oz-vacuum-insulated-stainless-travel-mug",
-                         "accent":  "#cb6a58",
-                         "specs":  {
-                                       "mouthDiameterCm":  8.4,
-                                       "capacityMl":  530,
-                                       "weightG":  420,
-                                       "leakproof":  false,
-                                       "ceramicCoated":  true,
-                                       "lidFullyDisassemblable":  true,
-                                       "dishwasherSafe":  true,
-                                       "cupHolderCompatible":  true,
-                                       "drinkingModes":  [
-                                                             "sip"
-                                                         ]
-                                   },
-                         "imageUrl":  "https://www.elloproducts.com/cdn/shop/products/Ello_Campy_18oz_Stainless_Travel_Mug_2.jpg?v=1739291290\u0026width=288",
-                         "imageSourceUrl":  "https://www.elloproducts.com/cdn/shop/products/Ello_Campy_18oz_Stainless_Travel_Mug_2.jpg?v=1739291290\u0026width=288"
-                     },
-                     {
-                         "id":  "keepcup-slot-thermal",
-                         "brand":  "KeepCup",
-                         "name":  "Thermal slot",
-                         "priceUsd":  34,
-                         "buyUrl":  "https://ca.keepcup.com/products/thermal-l-16oz-black",
-                         "accent":  "#4a8f8c",
-                         "specs":  {
-                                       "mouthDiameterCm":  7.4,
-                                       "capacityMl":  454,
-                                       "weightG":  300,
-                                       "leakproof":  false,
-                                       "ceramicCoated":  false,
-                                       "lidFullyDisassemblable":  true,
-                                       "dishwasherSafe":  true,
-                                       "cupHolderCompatible":  true,
-                                       "drinkingModes":  [
-                                                             "sip"
-                                                         ]
-                                   },
-                         "imageUrl":  "https://ca.keepcup.com/cdn/shop/files/Thermal_Black_L_16oz_Ecom_1000px.png?v=1759372635\u0026width=1920",
-                         "imageSourceUrl":  "https://ca.keepcup.com/cdn/shop/files/Thermal_Black_L_16oz_Ecom_1000px.png?v=1759372635\u0026width=1920"
-                     },
-                     {
-                         "id":  "klean-kanteen-slot-tkwide",
-                         "brand":  "Klean Kanteen",
-                         "name":  "TKWide-style slot",
-                         "priceUsd":  37,
-                         "buyUrl":  "https://www.kleankanteen.com/products/insulated-coffee-tumbler-tkwide-20oz",
-                         "accent":  "#78995d",
-                         "specs":  {
-                                       "mouthDiameterCm":  6.6,
-                                       "capacityMl":  592,
-                                       "weightG":  420,
-                                       "leakproof":  true,
-                                       "ceramicCoated":  false,
-                                       "lidFullyDisassemblable":  true,
-                                       "dishwasherSafe":  true,
-                                       "cupHolderCompatible":  false,
-                                       "drinkingModes":  [
-                                                             "sip",
-                                                             "chug"
-                                                         ]
-                                   },
-                         "imageUrl":  "https://cdn.shopify.com/s/files/1/0607/0325/files/tkwide_20oz_insulated_tumbler_cafe_woman_reading_square.jpg?v=1773958607",
-                         "imageSourceUrl":  "https://cdn.shopify.com/s/files/1/0607/0325/files/tkwide_20oz_insulated_tumbler_cafe_woman_reading_square.jpg?v=1773958607"
-                     },
-                     {
-                         "id":  "takeya-slot-actives",
-                         "brand":  "Takeya",
-                         "name":  "Actives-style slot",
-                         "priceUsd":  32,
-                         "buyUrl":  "https://takeyausa.com/products/actives-insulated-water-bottle",
-                         "accent":  "#3f7cac",
-                         "specs":  {
-                                       "mouthDiameterCm":  5.4,
-                                       "capacityMl":  710,
-                                       "weightG":  405,
-                                       "leakproof":  true,
-                                       "ceramicCoated":  false,
-                                       "lidFullyDisassemblable":  true,
-                                       "dishwasherSafe":  true,
-                                       "cupHolderCompatible":  true,
-                                       "drinkingModes":  [
-                                                             "chug"
-                                                         ]
-                                   },
-                         "imageUrl":  "https://slimages.macysassets.com/is/image/MCY/products/1/optimized/11263161_fpx.tif?wid=1200\u0026fmt=jpeg",
-                         "imageSourceUrl":  "https://slimages.macysassets.com/is/image/MCY/products/1/optimized/11263161_fpx.tif?wid=1200\u0026fmt=jpeg"
-                     },
-                     {
-                         "id":  "frank-green-slot-ceramic",
-                         "brand":  "Frank Green",
-                         "name":  "Ceramic reusable bottle large slot",
-                         "priceUsd":  44.95,
-                         "buyUrl":  "https://us.frankgreen.com/products/ceramic-reusable-bottle-34oz-1-000ml-lilac-haze-neon-pink",
-                         "accent":  "#9879b8",
-                         "specs":  {
-                                       "mouthDiameterCm":  null,
-                                       "capacityMl":  1000,
-                                       "weightG":  null,
-                                       "leakproof":  null,
-                                       "ceramicCoated":  true,
-                                       "lidFullyDisassemblable":  null,
-                                       "dishwasherSafe":  false,
-                                       "cupHolderCompatible":  null,
-                                       "drinkingModes":  [
-                                                             "straw"
-                                                         ]
-                                   },
-                         "imageUrl":  "https://cdn.shopify.com/s/files/1/0030/1406/6249/files/2406_WEBSITE_ECOM_20oz_BLUSHED_CERAMIC_BASE_BLUSHED_FLIP_STRAW_LID.png?v=1752104518\u0026width=1000",
-                         "imageSourceUrl":  "https://cdn.shopify.com/s/files/1/0030/1406/6249/files/2406_WEBSITE_ECOM_20oz_BLUSHED_CERAMIC_BASE_BLUSHED_FLIP_STRAW_LID.png?v=1752104518\u0026width=1000"
-                     },
-                     {
-                         "id":  "owala-slot-freesip",
-                         "brand":  "Owala",
-                         "name":  "FreeSip",
-                         "priceUsd":  29.99,
-                         "buyUrl":  "https://owalalife.com/products/freesip",
-                         "accent":  "#e6a23c",
-                         "specs":  {
-                                       "mouthDiameterCm":  5.5,
-                                       "capacityMl":  710,
-                                       "weightG":  430,
-                                       "leakproof":  true,
-                                       "ceramicCoated":  false,
-                                       "lidFullyDisassemblable":  true,
-                                       "dishwasherSafe":  true,
-                                       "cupHolderCompatible":  true,
-                                       "drinkingModes":  [
-                                                             "straw",
-                                                             "chug"
-                                                         ]
-                                   },
-                         "imageUrl":  "https://cdn.shopify.com/s/files/1/0439/2537/3087/files/OW_out_of_the_blue_24oz_Freesip_SC_Template_5ec8d073-6de7-47a0-875e-657d63e11134.png?v=1772222501\u0026width=500\u0026height=500\u0026crop=center",
-                         "imageSourceUrl":  "https://cdn.shopify.com/s/files/1/0439/2537/3087/files/OW_out_of_the_blue_24oz_Freesip_SC_Template_5ec8d073-6de7-47a0-875e-657d63e11134.png?v=1772222501\u0026width=500\u0026height=500\u0026crop=center"
-                     },
-                     {
-                         "id":  "owala-import-freesip-sway",
-                         "brand":  "Owala",
-                         "name":  "FreeSip Sway",
-                         "priceUsd":  34.99,
-                         "buyUrl":  "https://owalalife.com/products/freesip-sway",
-                         "accent":  "#e6a23c",
-                         "specs":  {
-                                       "mouthDiameterCm":  null,
-                                       "capacityMl":  887,
-                                       "weightG":  null,
-                                       "leakproof":  null,
-                                       "ceramicCoated":  null,
-                                       "lidFullyDisassemblable":  null,
-                                       "dishwasherSafe":  null,
-                                       "cupHolderCompatible":  null,
-                                       "drinkingModes":  [
-                                                             "straw",
-                                                             "chug"
-                                                         ]
-                                   },
-                         "imageUrl":  "https://cdn.shopify.com/s/files/1/0439/2537/3087/files/OW_90s_kid_30oz_FreeSip_Sway_Side.png?v=1772218716\u0026width=500\u0026height=500\u0026crop=center",
-                         "imageSourceUrl":  "https://cdn.shopify.com/s/files/1/0439/2537/3087/files/OW_90s_kid_30oz_FreeSip_Sway_Side.png?v=1772218716\u0026width=500\u0026height=500\u0026crop=center"
-                     },
-                     {
-                         "id":  "owala-import-kids-freesip",
-                         "brand":  "Owala",
-                         "name":  "Kids\u0027 FreeSip",
-                         "priceUsd":  24.99,
-                         "buyUrl":  "https://owalalife.com/products/kids-freesip",
-                         "accent":  "#e6a23c",
-                         "specs":  {
-                                       "mouthDiameterCm":  null,
-                                       "capacityMl":  473,
-                                       "weightG":  null,
-                                       "leakproof":  null,
-                                       "ceramicCoated":  null,
-                                       "lidFullyDisassemblable":  null,
-                                       "dishwasherSafe":  null,
-                                       "cupHolderCompatible":  null,
-                                       "drinkingModes":  [
-                                                             "straw",
-                                                             "chug"
-                                                         ]
-                                   },
-                         "imageUrl":  "https://cdn.shopify.com/s/files/1/0439/2537/3087/files/OW_read_my_lips_16oz_Freesip_SC.png?v=1772220887\u0026width=500\u0026height=500\u0026crop=center",
-                         "imageSourceUrl":  "https://cdn.shopify.com/s/files/1/0439/2537/3087/files/OW_read_my_lips_16oz_Freesip_SC.png?v=1772220887\u0026width=500\u0026height=500\u0026crop=center"
-                     },
-                     {
-                         "id":  "owala-import-freesip-tumbler",
-                         "brand":  "Owala",
-                         "name":  "FreeSip Tumbler",
-                         "priceUsd":  34.99,
-                         "buyUrl":  "https://owalalife.com/products/freesip-tumbler",
-                         "accent":  "#e6a23c",
-                         "specs":  {
-                                       "mouthDiameterCm":  null,
-                                       "capacityMl":  887,
-                                       "weightG":  null,
-                                       "leakproof":  null,
-                                       "ceramicCoated":  null,
-                                       "lidFullyDisassemblable":  null,
-                                       "dishwasherSafe":  null,
-                                       "cupHolderCompatible":  null,
-                                       "drinkingModes":  [
-                                                             "straw",
-                                                             "chug"
-                                                         ]
-                                   },
-                         "imageUrl":  "https://cdn.shopify.com/s/files/1/0439/2537/3087/files/OW_Web_30oz_FS_Tumbler_Rose_Quartz_Handle_Right.png?v=1768258842\u0026width=500\u0026height=500\u0026crop=center",
-                         "imageSourceUrl":  "https://cdn.shopify.com/s/files/1/0439/2537/3087/files/OW_Web_30oz_FS_Tumbler_Rose_Quartz_Handle_Right.png?v=1768258842\u0026width=500\u0026height=500\u0026crop=center"
-                     },
-                     {
-                         "id":  "owala-import-freesip-twist",
-                         "brand":  "Owala",
-                         "name":  "FreeSip Twist",
-                         "priceUsd":  23.99,
-                         "buyUrl":  "https://owalalife.com/products/freesip-twist",
-                         "accent":  "#e6a23c",
-                         "specs":  {
-                                       "mouthDiameterCm":  null,
-                                       "capacityMl":  710,
-                                       "weightG":  null,
-                                       "leakproof":  null,
-                                       "ceramicCoated":  null,
-                                       "lidFullyDisassemblable":  null,
-                                       "dishwasherSafe":  null,
-                                       "cupHolderCompatible":  null,
-                                       "drinkingModes":  [
-                                                             "straw",
-                                                             "chug"
-                                                         ]
-                                   },
-                         "imageUrl":  "https://cdn.shopify.com/s/files/1/0439/2537/3087/files/Peachy_Keen_24oz_Twist_e3cb9487-6065-488c-8de3-ce94a6165049.png?v=1753973676\u0026width=500\u0026height=500\u0026crop=center",
-                         "imageSourceUrl":  "https://cdn.shopify.com/s/files/1/0439/2537/3087/files/Peachy_Keen_24oz_Twist_e3cb9487-6065-488c-8de3-ce94a6165049.png?v=1753973676\u0026width=500\u0026height=500\u0026crop=center"
-                     },
-                     {
-                         "id":  "owala-import-smoothsip-slider",
-                         "brand":  "Owala",
-                         "name":  "SmoothSip Slider",
-                         "priceUsd":  19.99,
-                         "buyUrl":  "https://owalalife.com/products/smoothsip-slider",
-                         "accent":  "#e6a23c",
-                         "specs":  {
-                                       "mouthDiameterCm":  null,
-                                       "capacityMl":  355,
-                                       "weightG":  null,
-                                       "leakproof":  null,
-                                       "ceramicCoated":  null,
-                                       "lidFullyDisassemblable":  null,
-                                       "dishwasherSafe":  null,
-                                       "cupHolderCompatible":  null,
-                                       "drinkingModes":  [
-                                                             "sip"
-                                                         ]
-                                   },
-                         "imageUrl":  "https://cdn.shopify.com/s/files/1/0439/2537/3087/files/OW_12oz_SmoothSip_Sugar_High_Hero.png?v=1751489639\u0026width=500\u0026height=500\u0026crop=center",
-                         "imageSourceUrl":  "https://cdn.shopify.com/s/files/1/0439/2537/3087/files/OW_12oz_SmoothSip_Sugar_High_Hero.png?v=1751489639\u0026width=500\u0026height=500\u0026crop=center"
-                     },
-                     {
-                         "id":  "owala-import-40oz-tumbler",
-                         "brand":  "Owala",
-                         "name":  "40oz Tumbler",
-                         "priceUsd":  31.99,
-                         "buyUrl":  "https://owalalife.com/products/40oz-tumbler",
-                         "accent":  "#e6a23c",
-                         "specs":  {
-                                       "mouthDiameterCm":  null,
-                                       "capacityMl":  1183,
-                                       "weightG":  null,
-                                       "leakproof":  null,
-                                       "ceramicCoated":  null,
-                                       "lidFullyDisassemblable":  null,
-                                       "dishwasherSafe":  null,
-                                       "cupHolderCompatible":  null,
-                                       "drinkingModes":  [
-                                                             "straw"
-                                                         ]
-                                   },
-                         "imageUrl":  "https://cdn.shopify.com/s/files/1/0439/2537/3087/files/DuneDrifter-TumblerSC-4000x4000-c38c18a.png?v=1732128010\u0026width=500\u0026height=500\u0026crop=center",
-                         "imageSourceUrl":  "https://cdn.shopify.com/s/files/1/0439/2537/3087/files/DuneDrifter-TumblerSC-4000x4000-c38c18a.png?v=1732128010\u0026width=500\u0026height=500\u0026crop=center"
-                     },
-                     {
-                         "id":  "owala-import-kids-tumbler",
-                         "brand":  "Owala",
-                         "name":  "Kids\u0027 Tumbler",
-                         "priceUsd":  12.99,
-                         "buyUrl":  "https://owalalife.com/products/kids-tumbler",
-                         "accent":  "#e6a23c",
-                         "specs":  {
-                                       "mouthDiameterCm":  null,
-                                       "capacityMl":  444,
-                                       "weightG":  null,
-                                       "leakproof":  null,
-                                       "ceramicCoated":  null,
-                                       "lidFullyDisassemblable":  null,
-                                       "dishwasherSafe":  null,
-                                       "cupHolderCompatible":  null,
-                                       "drinkingModes":  [
-                                                             "straw"
-                                                         ]
-                                   },
-                         "imageUrl":  "https://cdn.shopify.com/s/files/1/0439/2537/3087/products/pp-bambino-lilacrocket.png?v=1762181926\u0026width=500\u0026crop=center",
-                         "imageSourceUrl":  "https://cdn.shopify.com/s/files/1/0439/2537/3087/products/pp-bambino-lilacrocket.png?v=1762181926\u0026width=500\u0026crop=center"
-                     },
-                     {
-                         "id":  "owala-import-24oz-tumbler",
-                         "brand":  "Owala",
-                         "name":  "24oz Tumbler",
-                         "priceUsd":  34.99,
-                         "buyUrl":  "https://owalalife.com/products/24oz-tumbler",
-                         "accent":  "#e6a23c",
-                         "specs":  {
-                                       "mouthDiameterCm":  null,
-                                       "capacityMl":  710,
-                                       "weightG":  null,
-                                       "leakproof":  null,
-                                       "ceramicCoated":  null,
-                                       "lidFullyDisassemblable":  null,
-                                       "dishwasherSafe":  null,
-                                       "cupHolderCompatible":  null,
-                                       "drinkingModes":  [
-                                                             "straw"
-                                                         ]
-                                   },
-                         "imageUrl":  "https://cdn.shopify.com/s/files/1/0439/2537/3087/files/Smell_The_Roses_-_Marlu_SC-1080x1080-f521e30_b8f8a2a2-d02c-439b-8613-d773ff766197.png?v=1762181940\u0026width=500\u0026crop=center",
-                         "imageSourceUrl":  "https://cdn.shopify.com/s/files/1/0439/2537/3087/files/Smell_The_Roses_-_Marlu_SC-1080x1080-f521e30_b8f8a2a2-d02c-439b-8613-d773ff766197.png?v=1762181940\u0026width=500\u0026crop=center"
-                     },
-                     {
-                         "id":  "owala-import-smoothsip-slider-with-handle",
-                         "brand":  "Owala",
-                         "name":  "SmoothSip Slider with Handle",
-                         "priceUsd":  34.99,
-                         "buyUrl":  "https://owalalife.com/products/smoothsip-slider-with-handle",
-                         "accent":  "#e6a23c",
-                         "specs":  {
-                                       "mouthDiameterCm":  null,
-                                       "capacityMl":  710,
-                                       "weightG":  null,
-                                       "leakproof":  null,
-                                       "ceramicCoated":  null,
-                                       "lidFullyDisassemblable":  null,
-                                       "dishwasherSafe":  null,
-                                       "cupHolderCompatible":  null,
-                                       "drinkingModes":  [
-                                                             "sip"
-                                                         ]
-                                   },
-                         "imageUrl":  "https://cdn.shopify.com/s/files/1/0439/2537/3087/files/OW_-_Smoothsip_Slider_Handle_24oz_-_Burgandy_Bay_-_SC.png?v=1758561904\u0026width=500\u0026height=500\u0026crop=center",
-                         "imageSourceUrl":  "https://cdn.shopify.com/s/files/1/0439/2537/3087/files/OW_-_Smoothsip_Slider_Handle_24oz_-_Burgandy_Bay_-_SC.png?v=1758561904\u0026width=500\u0026height=500\u0026crop=center"
-                     },
-                     {
-                         "id":  "owala-import-smoothsip",
-                         "brand":  "Owala",
-                         "name":  "SmoothSip",
-                         "priceUsd":  24.99,
-                         "buyUrl":  "https://owalalife.com/products/smoothsip",
-                         "accent":  "#e6a23c",
-                         "specs":  {
-                                       "mouthDiameterCm":  null,
-                                       "capacityMl":  592,
-                                       "weightG":  null,
-                                       "leakproof":  null,
-                                       "ceramicCoated":  null,
-                                       "lidFullyDisassemblable":  null,
-                                       "dishwasherSafe":  null,
-                                       "cupHolderCompatible":  null,
-                                       "drinkingModes":  [
-                                                             "sip"
-                                                         ]
-                                   },
-                         "imageUrl":  "https://cdn.shopify.com/s/files/1/0439/2537/3087/products/Owala_SmoothSip_Cloudscape-4000x4000-c38c18a.png?v=1762181967\u0026width=500\u0026height=500\u0026crop=center",
-                         "imageSourceUrl":  "https://cdn.shopify.com/s/files/1/0439/2537/3087/products/Owala_SmoothSip_Cloudscape-4000x4000-c38c18a.png?v=1762181967\u0026width=500\u0026height=500\u0026crop=center"
-                     }
-                 ]
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-05-22T15:54:54.211Z",
+  "products": [
+    {
+      "id": "stanley-slot-quencher",
+      "brand": "Stanley",
+      "name": "Quencher-style slot",
+      "priceUsd": 45,
+      "buyUrl": "https://www.stanley1913.com/products/adventure-quencher-travel-tumbler-40-oz",
+      "accent": "#8ab7a2",
+      "specs": {
+        "mouthDiameterCm": 8.9,
+        "capacityMl": 1180,
+        "weightG": 650,
+        "leakproof": false,
+        "ceramicCoated": false,
+        "lidFullyDisassemblable": true,
+        "dishwasherSafe": true,
+        "cupHolderCompatible": true,
+        "drinkingModes": [
+          "straw"
+        ]
+      },
+      "imageUrl": "https://www.stanley1913.com/cdn/shop/files/Web_PNG_Square-The_Quencher_H2.0_FlowState_Tumbler_40OZ_-_Soft_Orchid_-_Front.png?v=1768921701&width=1920",
+      "imageSourceUrl": "https://www.stanley1913.com/cdn/shop/files/Web_PNG_Square-The_Quencher_H2.0_FlowState_Tumbler_40OZ_-_Soft_Orchid_-_Front.png?v=1768921701&width=1920"
+    },
+    {
+      "id": "hydro-flask-slot-wide",
+      "brand": "Hydro Flask",
+      "name": "Wide-mouth bottle slot",
+      "priceUsd": 40,
+      "buyUrl": "https://www.hydroflask.com/32-oz-wide-mouth-nectar-orange",
+      "accent": "#4f9dd9",
+      "specs": {
+        "mouthDiameterCm": 5.8,
+        "capacityMl": 946,
+        "weightG": 445,
+        "leakproof": true,
+        "ceramicCoated": false,
+        "lidFullyDisassemblable": true,
+        "dishwasherSafe": true,
+        "cupHolderCompatible": false,
+        "drinkingModes": [
+          "chug",
+          "sip"
+        ]
+      },
+      "imageUrl": "https://www.hydroflask.com/media/catalog/product/cache/b2f1ce2dfe10d3d31bf2056bf6e0d10f/W/3/W32BTS464-Indigo-StraightOn.jpg",
+      "imageSourceUrl": "https://www.hydroflask.com/media/catalog/product/cache/b2f1ce2dfe10d3d31bf2056bf6e0d10f/W/3/W32BTS464-Indigo-StraightOn.jpg"
+    },
+    {
+      "id": "yeti-slot-rambler",
+      "brand": "YETI",
+      "name": "Rambler travel slot",
+      "priceUsd": 42,
+      "buyUrl": "https://www.yeti.com/drinkware/mugs/mug-30oz.html",
+      "accent": "#d65a31",
+      "specs": {
+        "mouthDiameterCm": 8.5,
+        "capacityMl": 887,
+        "weightG": 570,
+        "leakproof": true,
+        "ceramicCoated": false,
+        "lidFullyDisassemblable": true,
+        "dishwasherSafe": true,
+        "cupHolderCompatible": true,
+        "drinkingModes": [
+          "sip"
+        ]
+      },
+      "imageUrl": "https://yeti-webmedia.imgix.net/asset/0b6f9706-6f49-4c2a-a717-fc7bb077181a/W/Drinkware_MugMS_30oz_Seafoam_Studio_PrimaryB.png?auto=format%2Ccompress&bg=0fff&h=846&w=846",
+      "imageSourceUrl": "https://yeti-webmedia.imgix.net/asset/0b6f9706-6f49-4c2a-a717-fc7bb077181a/W/Drinkware_MugMS_30oz_Seafoam_Studio_PrimaryB.png?auto=format%2Ccompress&bg=0fff&h=846&w=846"
+    },
+    {
+      "id": "fellow-slot-carter",
+      "brand": "Fellow",
+      "name": "Carter ceramic slot",
+      "priceUsd": 35,
+      "buyUrl": "https://fellowproducts.com/collections/travel-mugs/products/carter-move-mug",
+      "accent": "#2f6f73",
+      "specs": {
+        "mouthDiameterCm": 7.7,
+        "capacityMl": 473,
+        "weightG": 304,
+        "leakproof": true,
+        "ceramicCoated": true,
+        "lidFullyDisassemblable": false,
+        "dishwasherSafe": false,
+        "cupHolderCompatible": true,
+        "drinkingModes": [
+          "sip"
+        ]
+      },
+      "imageUrl": "https://fellowproducts.com/cdn/shop/files/Web_PDP_CarterMoveMug-12oz_ElectricCobalt_1.png?v=1776292482&width=1920",
+      "imageSourceUrl": "https://fellowproducts.com/cdn/shop/files/Web_PDP_CarterMoveMug-12oz_ElectricCobalt_1.png?v=1776292482&width=1920"
+    },
+    {
+      "id": "kinto-slot-travel",
+      "brand": "Kinto",
+      "name": "Travel tumbler slot",
+      "priceUsd": 38,
+      "buyUrl": "https://kinto-usa.com/products/20941",
+      "accent": "#b5744f",
+      "specs": {
+        "mouthDiameterCm": 7,
+        "capacityMl": 500,
+        "weightG": 310,
+        "leakproof": true,
+        "ceramicCoated": false,
+        "lidFullyDisassemblable": true,
+        "dishwasherSafe": false,
+        "cupHolderCompatible": true,
+        "drinkingModes": [
+          "sip"
+        ]
+      },
+      "imageUrl": "https://kinto-usa.com/cdn/shop/articles/210721_productstory_traveltumbler_top_x283.jpg?v=1627435394",
+      "imageSourceUrl": "https://kinto-usa.com/cdn/shop/articles/210721_productstory_traveltumbler_top_x283.jpg?v=1627435394"
+    },
+    {
+      "id": "zojirushi-slot-stainless",
+      "brand": "Zojirushi",
+      "name": "Stainless mug slot",
+      "priceUsd": 32,
+      "buyUrl": "https://www.zojirushi.com/app/product/smsf",
+      "accent": "#7a8d9b",
+      "specs": {
+        "mouthDiameterCm": 4.4,
+        "capacityMl": 480,
+        "weightG": 255,
+        "leakproof": true,
+        "ceramicCoated": false,
+        "lidFullyDisassemblable": true,
+        "dishwasherSafe": false,
+        "cupHolderCompatible": true,
+        "drinkingModes": [
+          "sip"
+        ]
+      },
+      "imageUrl": "https://www.zojirushi.com/user/images/prod/315.2.jpg",
+      "imageSourceUrl": "https://www.zojirushi.com/user/images/prod/315.2.jpg"
+    },
+    {
+      "id": "thermos-slot-commuter",
+      "brand": "Thermos",
+      "name": "Commuter mug slot",
+      "priceUsd": 28,
+      "buyUrl": "https://thermos.com/products/stainless-king-coffee-mug-16oz",
+      "accent": "#9c3d44",
+      "specs": {
+        "mouthDiameterCm": 6.6,
+        "capacityMl": 470,
+        "weightG": 365,
+        "leakproof": true,
+        "ceramicCoated": false,
+        "lidFullyDisassemblable": true,
+        "dishwasherSafe": false,
+        "cupHolderCompatible": true,
+        "drinkingModes": [
+          "sip"
+        ]
+      },
+      "imageUrl": "https://thermos.com/cdn/shop/products/tms-o-sk1600mdbw4_front_angle.jpg?v=1623680197&width=1080",
+      "imageSourceUrl": "https://thermos.com/cdn/shop/products/tms-o-sk1600mdbw4_front_angle.jpg?v=1623680197&width=1080"
+    },
+    {
+      "id": "contigo-slot-autoseal",
+      "brand": "Contigo",
+      "name": "Autoseal slot",
+      "priceUsd": 24,
+      "buyUrl": "https://www.gocontigo.com/explore-products/mugs/autoseal-west-loop-vacuum-insulated-stainless-steel-travel-mug-with-easy-clean-lid--20-oz/SAP_2169251.html",
+      "accent": "#407c87",
+      "specs": {
+        "mouthDiameterCm": 6.2,
+        "capacityMl": 590,
+        "weightG": 340,
+        "leakproof": true,
+        "ceramicCoated": false,
+        "lidFullyDisassemblable": false,
+        "dishwasherSafe": true,
+        "cupHolderCompatible": true,
+        "drinkingModes": [
+          "sip"
+        ]
+      },
+      "imageUrl": "https://newellbrands.imgix.net/46746784-2014-3118-838d-8654f5570057/46746784-2014-3118-838d-8654f5570057.jpg?auto=format%2Ccompress&h=400&w=400",
+      "imageSourceUrl": "https://newellbrands.imgix.net/46746784-2014-3118-838d-8654f5570057/46746784-2014-3118-838d-8654f5570057.jpg?auto=format%2Ccompress&h=400&w=400"
+    },
+    {
+      "id": "swell-slot-traveler",
+      "brand": "S'well",
+      "name": "Traveler slot",
+      "priceUsd": 35,
+      "buyUrl": "https://www.swell.com/products/traveler-16oz",
+      "accent": "#bb4f6b",
+      "specs": {
+        "mouthDiameterCm": 7.5,
+        "capacityMl": 470,
+        "weightG": 315,
+        "leakproof": true,
+        "ceramicCoated": false,
+        "lidFullyDisassemblable": true,
+        "dishwasherSafe": false,
+        "cupHolderCompatible": true,
+        "drinkingModes": [
+          "sip"
+        ]
+      },
+      "imageUrl": "https://www.swell.com/cdn/shop/files/Swell-Water-Bottle-Traveler-16oz-Wood-Print-Teakwood-Front.png?v=1719058524&width=2500",
+      "imageSourceUrl": "https://www.swell.com/cdn/shop/files/Swell-Water-Bottle-Traveler-16oz-Wood-Print-Teakwood-Front.png?v=1719058524&width=2500"
+    },
+    {
+      "id": "miir-slot-tumbler",
+      "brand": "MiiR",
+      "name": "Travel tumbler slot",
+      "priceUsd": 30,
+      "buyUrl": "https://www.miir.com/products/everywhere-straw-tumbler",
+      "accent": "#65735f",
+      "specs": {
+        "mouthDiameterCm": 8,
+        "capacityMl": 590,
+        "weightG": 355,
+        "leakproof": false,
+        "ceramicCoated": false,
+        "lidFullyDisassemblable": true,
+        "dishwasherSafe": true,
+        "cupHolderCompatible": true,
+        "drinkingModes": [
+          "sip"
+        ]
+      },
+      "imageUrl": "https://www.miir.com/cdn/shop/files/WebPDP-16oz_Everywhere_Straw_Tumbler_Haze_Purple_Studio__EWST1PN16221_270.jpg?v=1719520259&width=1946",
+      "imageSourceUrl": "https://www.miir.com/cdn/shop/files/WebPDP-16oz_Everywhere_Straw_Tumbler_Haze_Purple_Studio__EWST1PN16221_270.jpg?v=1719520259&width=1946"
+    },
+    {
+      "id": "corkcicle-slot-commuter",
+      "brand": "Corkcicle",
+      "name": "Commuter cup slot",
+      "priceUsd": 38,
+      "buyUrl": "https://corkcicle.com/products/cruiser",
+      "accent": "#8e67a8",
+      "specs": {
+        "mouthDiameterCm": 7.8,
+        "capacityMl": 710,
+        "weightG": 390,
+        "leakproof": true,
+        "ceramicCoated": true,
+        "lidFullyDisassemblable": null,
+        "dishwasherSafe": true,
+        "cupHolderCompatible": true,
+        "drinkingModes": [
+          "sip"
+        ]
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0105/8732/files/ef4f8412027f--Cruiser-PDP-RAINBOW.png?v=1743530074",
+      "imageSourceUrl": "https://cdn.shopify.com/s/files/1/0105/8732/files/ef4f8412027f--Cruiser-PDP-RAINBOW.png?v=1743530074"
+    },
+    {
+      "id": "simple-modern-slot-trek",
+      "brand": "Simple Modern",
+      "name": "Trek-style slot",
+      "priceUsd": 30,
+      "buyUrl": "https://www.simplemodern.com/products/trek-tumbler-8",
+      "accent": "#d18453",
+      "specs": {
+        "mouthDiameterCm": 8.8,
+        "capacityMl": 1180,
+        "weightG": 610,
+        "leakproof": true,
+        "ceramicCoated": false,
+        "lidFullyDisassemblable": true,
+        "dishwasherSafe": true,
+        "cupHolderCompatible": true,
+        "drinkingModes": [
+          "straw",
+          "sip"
+        ]
+      },
+      "imageUrl": "https://www.simplemodern.com/cdn/shop/files/TRK-SH-40-BUDU-M_2_1_900x.png?v=1744139498",
+      "imageSourceUrl": "https://www.simplemodern.com/cdn/shop/files/TRK-SH-40-BUDU-M_2_1_900x.png?v=1744139498"
+    },
+    {
+      "id": "brumate-slot-era",
+      "brand": "BruMate",
+      "name": "Era-style slot",
+      "priceUsd": 45,
+      "buyUrl": "https://www.brumate.com/products/era-40oz-dune",
+      "accent": "#505e86",
+      "specs": {
+        "mouthDiameterCm": 8.6,
+        "capacityMl": 1180,
+        "weightG": 665,
+        "leakproof": true,
+        "ceramicCoated": false,
+        "lidFullyDisassemblable": true,
+        "dishwasherSafe": true,
+        "cupHolderCompatible": true,
+        "drinkingModes": [
+          "straw"
+        ]
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/1114/2308/files/era-40-dune.png?v=1762278178",
+      "imageSourceUrl": "https://cdn.shopify.com/s/files/1/1114/2308/files/era-40-dune.png?v=1762278178"
+    },
+    {
+      "id": "ello-slot-campy",
+      "brand": "Ello",
+      "name": "Ceramic camp slot",
+      "priceUsd": 20,
+      "buyUrl": "https://www.elloproducts.com/products/campy-18oz-vacuum-insulated-stainless-travel-mug",
+      "accent": "#cb6a58",
+      "specs": {
+        "mouthDiameterCm": 8.4,
+        "capacityMl": 530,
+        "weightG": 420,
+        "leakproof": false,
+        "ceramicCoated": true,
+        "lidFullyDisassemblable": true,
+        "dishwasherSafe": true,
+        "cupHolderCompatible": true,
+        "drinkingModes": [
+          "sip"
+        ]
+      },
+      "imageUrl": "https://www.elloproducts.com/cdn/shop/products/Ello_Campy_18oz_Stainless_Travel_Mug_2.jpg?v=1739291290&width=288",
+      "imageSourceUrl": "https://www.elloproducts.com/cdn/shop/products/Ello_Campy_18oz_Stainless_Travel_Mug_2.jpg?v=1739291290&width=288"
+    },
+    {
+      "id": "keepcup-slot-thermal",
+      "brand": "KeepCup",
+      "name": "Thermal slot",
+      "priceUsd": 34,
+      "buyUrl": "https://ca.keepcup.com/products/thermal-l-16oz-black",
+      "accent": "#4a8f8c",
+      "specs": {
+        "mouthDiameterCm": 7.4,
+        "capacityMl": 454,
+        "weightG": 300,
+        "leakproof": false,
+        "ceramicCoated": false,
+        "lidFullyDisassemblable": true,
+        "dishwasherSafe": true,
+        "cupHolderCompatible": true,
+        "drinkingModes": [
+          "sip"
+        ]
+      },
+      "imageUrl": "https://ca.keepcup.com/cdn/shop/files/Thermal_Black_L_16oz_Ecom_1000px.png?v=1759372635&width=1920",
+      "imageSourceUrl": "https://ca.keepcup.com/cdn/shop/files/Thermal_Black_L_16oz_Ecom_1000px.png?v=1759372635&width=1920"
+    },
+    {
+      "id": "klean-kanteen-slot-tkwide",
+      "brand": "Klean Kanteen",
+      "name": "TKWide-style slot",
+      "priceUsd": 37,
+      "buyUrl": "https://www.kleankanteen.com/products/insulated-coffee-tumbler-tkwide-20oz",
+      "accent": "#78995d",
+      "specs": {
+        "mouthDiameterCm": 6.6,
+        "capacityMl": 592,
+        "weightG": 420,
+        "leakproof": true,
+        "ceramicCoated": false,
+        "lidFullyDisassemblable": true,
+        "dishwasherSafe": true,
+        "cupHolderCompatible": false,
+        "drinkingModes": [
+          "sip",
+          "chug"
+        ]
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0607/0325/files/tkwide_20oz_insulated_tumbler_cafe_woman_reading_square.jpg?v=1773958607",
+      "imageSourceUrl": "https://cdn.shopify.com/s/files/1/0607/0325/files/tkwide_20oz_insulated_tumbler_cafe_woman_reading_square.jpg?v=1773958607"
+    },
+    {
+      "id": "takeya-slot-actives",
+      "brand": "Takeya",
+      "name": "Actives-style slot",
+      "priceUsd": 32,
+      "buyUrl": "https://takeyausa.com/products/actives-insulated-water-bottle",
+      "accent": "#3f7cac",
+      "specs": {
+        "mouthDiameterCm": 5.4,
+        "capacityMl": 710,
+        "weightG": 405,
+        "leakproof": true,
+        "ceramicCoated": false,
+        "lidFullyDisassemblable": true,
+        "dishwasherSafe": true,
+        "cupHolderCompatible": true,
+        "drinkingModes": [
+          "chug"
+        ]
+      },
+      "imageUrl": "https://slimages.macysassets.com/is/image/MCY/products/1/optimized/11263161_fpx.tif?wid=1200&fmt=jpeg",
+      "imageSourceUrl": "https://slimages.macysassets.com/is/image/MCY/products/1/optimized/11263161_fpx.tif?wid=1200&fmt=jpeg"
+    },
+    {
+      "id": "frank-green-slot-ceramic",
+      "brand": "Frank Green",
+      "name": "Ceramic reusable bottle large slot",
+      "priceUsd": 44.95,
+      "buyUrl": "https://us.frankgreen.com/products/ceramic-reusable-bottle-34oz-1-000ml-lilac-haze-neon-pink",
+      "accent": "#9879b8",
+      "specs": {
+        "mouthDiameterCm": null,
+        "capacityMl": 1000,
+        "weightG": null,
+        "leakproof": null,
+        "ceramicCoated": true,
+        "lidFullyDisassemblable": null,
+        "dishwasherSafe": false,
+        "cupHolderCompatible": null,
+        "drinkingModes": [
+          "straw"
+        ]
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0030/1406/6249/files/2406_WEBSITE_ECOM_20oz_BLUSHED_CERAMIC_BASE_BLUSHED_FLIP_STRAW_LID.png?v=1752104518&width=1000",
+      "imageSourceUrl": "https://cdn.shopify.com/s/files/1/0030/1406/6249/files/2406_WEBSITE_ECOM_20oz_BLUSHED_CERAMIC_BASE_BLUSHED_FLIP_STRAW_LID.png?v=1752104518&width=1000"
+    },
+    {
+      "id": "owala-slot-freesip",
+      "brand": "Owala",
+      "name": "FreeSip",
+      "priceUsd": 29.99,
+      "buyUrl": "https://owalalife.com/products/freesip",
+      "accent": "#e6a23c",
+      "specs": {
+        "mouthDiameterCm": 5.5,
+        "capacityMl": 710,
+        "weightG": 430,
+        "leakproof": true,
+        "ceramicCoated": false,
+        "lidFullyDisassemblable": true,
+        "dishwasherSafe": true,
+        "cupHolderCompatible": true,
+        "drinkingModes": [
+          "straw",
+          "chug"
+        ]
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0439/2537/3087/files/OW_out_of_the_blue_24oz_Freesip_SC_Template_5ec8d073-6de7-47a0-875e-657d63e11134.png?v=1772222501&width=500&height=500&crop=center",
+      "imageSourceUrl": "https://cdn.shopify.com/s/files/1/0439/2537/3087/files/OW_out_of_the_blue_24oz_Freesip_SC_Template_5ec8d073-6de7-47a0-875e-657d63e11134.png?v=1772222501&width=500&height=500&crop=center"
+    },
+    {
+      "id": "owala-import-freesip-sway",
+      "brand": "Owala",
+      "name": "FreeSip Sway",
+      "priceUsd": 34.99,
+      "buyUrl": "https://owalalife.com/products/freesip-sway",
+      "accent": "#e6a23c",
+      "specs": {
+        "mouthDiameterCm": null,
+        "capacityMl": 887,
+        "weightG": null,
+        "leakproof": null,
+        "ceramicCoated": null,
+        "lidFullyDisassemblable": null,
+        "dishwasherSafe": null,
+        "cupHolderCompatible": null,
+        "drinkingModes": [
+          "straw",
+          "chug"
+        ]
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0439/2537/3087/files/OW_90s_kid_30oz_FreeSip_Sway_Side.png?v=1772218716&width=500&height=500&crop=center",
+      "imageSourceUrl": "https://cdn.shopify.com/s/files/1/0439/2537/3087/files/OW_90s_kid_30oz_FreeSip_Sway_Side.png?v=1772218716&width=500&height=500&crop=center"
+    },
+    {
+      "id": "owala-import-kids-freesip",
+      "brand": "Owala",
+      "name": "Kids' FreeSip",
+      "priceUsd": 24.99,
+      "buyUrl": "https://owalalife.com/products/kids-freesip",
+      "accent": "#e6a23c",
+      "specs": {
+        "mouthDiameterCm": null,
+        "capacityMl": 473,
+        "weightG": null,
+        "leakproof": null,
+        "ceramicCoated": null,
+        "lidFullyDisassemblable": null,
+        "dishwasherSafe": null,
+        "cupHolderCompatible": null,
+        "drinkingModes": [
+          "straw",
+          "chug"
+        ]
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0439/2537/3087/files/OW_read_my_lips_16oz_Freesip_SC.png?v=1772220887&width=500&height=500&crop=center",
+      "imageSourceUrl": "https://cdn.shopify.com/s/files/1/0439/2537/3087/files/OW_read_my_lips_16oz_Freesip_SC.png?v=1772220887&width=500&height=500&crop=center"
+    },
+    {
+      "id": "owala-import-freesip-tumbler",
+      "brand": "Owala",
+      "name": "FreeSip Tumbler",
+      "priceUsd": 34.99,
+      "buyUrl": "https://owalalife.com/products/freesip-tumbler",
+      "accent": "#e6a23c",
+      "specs": {
+        "mouthDiameterCm": null,
+        "capacityMl": 887,
+        "weightG": null,
+        "leakproof": null,
+        "ceramicCoated": null,
+        "lidFullyDisassemblable": null,
+        "dishwasherSafe": null,
+        "cupHolderCompatible": null,
+        "drinkingModes": [
+          "straw",
+          "chug"
+        ]
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0439/2537/3087/files/OW_Web_30oz_FS_Tumbler_Rose_Quartz_Handle_Right.png?v=1768258842&width=500&height=500&crop=center",
+      "imageSourceUrl": "https://cdn.shopify.com/s/files/1/0439/2537/3087/files/OW_Web_30oz_FS_Tumbler_Rose_Quartz_Handle_Right.png?v=1768258842&width=500&height=500&crop=center"
+    },
+    {
+      "id": "owala-import-freesip-twist",
+      "brand": "Owala",
+      "name": "FreeSip Twist",
+      "priceUsd": 23.99,
+      "buyUrl": "https://owalalife.com/products/freesip-twist",
+      "accent": "#e6a23c",
+      "specs": {
+        "mouthDiameterCm": null,
+        "capacityMl": 710,
+        "weightG": null,
+        "leakproof": null,
+        "ceramicCoated": null,
+        "lidFullyDisassemblable": null,
+        "dishwasherSafe": null,
+        "cupHolderCompatible": null,
+        "drinkingModes": [
+          "straw",
+          "chug"
+        ]
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0439/2537/3087/files/Peachy_Keen_24oz_Twist_e3cb9487-6065-488c-8de3-ce94a6165049.png?v=1753973676&width=500&height=500&crop=center",
+      "imageSourceUrl": "https://cdn.shopify.com/s/files/1/0439/2537/3087/files/Peachy_Keen_24oz_Twist_e3cb9487-6065-488c-8de3-ce94a6165049.png?v=1753973676&width=500&height=500&crop=center"
+    },
+    {
+      "id": "owala-import-smoothsip-slider",
+      "brand": "Owala",
+      "name": "SmoothSip Slider",
+      "priceUsd": 19.99,
+      "buyUrl": "https://owalalife.com/products/smoothsip-slider",
+      "accent": "#e6a23c",
+      "specs": {
+        "mouthDiameterCm": null,
+        "capacityMl": 355,
+        "weightG": null,
+        "leakproof": null,
+        "ceramicCoated": null,
+        "lidFullyDisassemblable": null,
+        "dishwasherSafe": null,
+        "cupHolderCompatible": null,
+        "drinkingModes": [
+          "sip"
+        ]
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0439/2537/3087/files/OW_12oz_SmoothSip_Sugar_High_Hero.png?v=1751489639&width=500&height=500&crop=center",
+      "imageSourceUrl": "https://cdn.shopify.com/s/files/1/0439/2537/3087/files/OW_12oz_SmoothSip_Sugar_High_Hero.png?v=1751489639&width=500&height=500&crop=center"
+    },
+    {
+      "id": "owala-import-40oz-tumbler",
+      "brand": "Owala",
+      "name": "40oz Tumbler",
+      "priceUsd": 31.99,
+      "buyUrl": "https://owalalife.com/products/40oz-tumbler",
+      "accent": "#e6a23c",
+      "specs": {
+        "mouthDiameterCm": null,
+        "capacityMl": 1183,
+        "weightG": null,
+        "leakproof": null,
+        "ceramicCoated": null,
+        "lidFullyDisassemblable": null,
+        "dishwasherSafe": null,
+        "cupHolderCompatible": null,
+        "drinkingModes": [
+          "straw"
+        ]
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0439/2537/3087/files/DuneDrifter-TumblerSC-4000x4000-c38c18a.png?v=1732128010&width=500&height=500&crop=center",
+      "imageSourceUrl": "https://cdn.shopify.com/s/files/1/0439/2537/3087/files/DuneDrifter-TumblerSC-4000x4000-c38c18a.png?v=1732128010&width=500&height=500&crop=center"
+    },
+    {
+      "id": "owala-import-kids-tumbler",
+      "brand": "Owala",
+      "name": "Kids' Tumbler",
+      "priceUsd": 12.99,
+      "buyUrl": "https://owalalife.com/products/kids-tumbler",
+      "accent": "#e6a23c",
+      "specs": {
+        "mouthDiameterCm": null,
+        "capacityMl": 444,
+        "weightG": null,
+        "leakproof": null,
+        "ceramicCoated": null,
+        "lidFullyDisassemblable": null,
+        "dishwasherSafe": null,
+        "cupHolderCompatible": null,
+        "drinkingModes": [
+          "straw"
+        ]
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0439/2537/3087/products/pp-bambino-lilacrocket.png?v=1762181926&width=500&crop=center",
+      "imageSourceUrl": "https://cdn.shopify.com/s/files/1/0439/2537/3087/products/pp-bambino-lilacrocket.png?v=1762181926&width=500&crop=center"
+    },
+    {
+      "id": "owala-import-24oz-tumbler",
+      "brand": "Owala",
+      "name": "24oz Tumbler",
+      "priceUsd": 34.99,
+      "buyUrl": "https://owalalife.com/products/24oz-tumbler",
+      "accent": "#e6a23c",
+      "specs": {
+        "mouthDiameterCm": null,
+        "capacityMl": 710,
+        "weightG": null,
+        "leakproof": null,
+        "ceramicCoated": null,
+        "lidFullyDisassemblable": null,
+        "dishwasherSafe": null,
+        "cupHolderCompatible": null,
+        "drinkingModes": [
+          "straw"
+        ]
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0439/2537/3087/files/Smell_The_Roses_-_Marlu_SC-1080x1080-f521e30_b8f8a2a2-d02c-439b-8613-d773ff766197.png?v=1762181940&width=500&crop=center",
+      "imageSourceUrl": "https://cdn.shopify.com/s/files/1/0439/2537/3087/files/Smell_The_Roses_-_Marlu_SC-1080x1080-f521e30_b8f8a2a2-d02c-439b-8613-d773ff766197.png?v=1762181940&width=500&crop=center"
+    },
+    {
+      "id": "owala-import-smoothsip-slider-with-handle",
+      "brand": "Owala",
+      "name": "SmoothSip Slider with Handle",
+      "priceUsd": 34.99,
+      "buyUrl": "https://owalalife.com/products/smoothsip-slider-with-handle",
+      "accent": "#e6a23c",
+      "specs": {
+        "mouthDiameterCm": null,
+        "capacityMl": 710,
+        "weightG": null,
+        "leakproof": null,
+        "ceramicCoated": null,
+        "lidFullyDisassemblable": null,
+        "dishwasherSafe": null,
+        "cupHolderCompatible": null,
+        "drinkingModes": [
+          "sip"
+        ]
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0439/2537/3087/files/OW_-_Smoothsip_Slider_Handle_24oz_-_Burgandy_Bay_-_SC.png?v=1758561904&width=500&height=500&crop=center",
+      "imageSourceUrl": "https://cdn.shopify.com/s/files/1/0439/2537/3087/files/OW_-_Smoothsip_Slider_Handle_24oz_-_Burgandy_Bay_-_SC.png?v=1758561904&width=500&height=500&crop=center"
+    },
+    {
+      "id": "owala-import-smoothsip",
+      "brand": "Owala",
+      "name": "SmoothSip",
+      "priceUsd": 24.99,
+      "buyUrl": "https://owalalife.com/products/smoothsip",
+      "accent": "#e6a23c",
+      "specs": {
+        "mouthDiameterCm": null,
+        "capacityMl": 592,
+        "weightG": null,
+        "leakproof": null,
+        "ceramicCoated": null,
+        "lidFullyDisassemblable": null,
+        "dishwasherSafe": null,
+        "cupHolderCompatible": null,
+        "drinkingModes": [
+          "sip"
+        ]
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0439/2537/3087/products/Owala_SmoothSip_Cloudscape-4000x4000-c38c18a.png?v=1762181967&width=500&height=500&crop=center",
+      "imageSourceUrl": "https://cdn.shopify.com/s/files/1/0439/2537/3087/products/Owala_SmoothSip_Cloudscape-4000x4000-c38c18a.png?v=1762181967&width=500&height=500&crop=center"
+    },
+    {
+      "id": "contigo-autopop-bottle-710",
+      "brand": "Contigo",
+      "name": "AutoPop�� Bottle",
+      "priceUsd": null,
+      "buyUrl": "https://www.gocontigo.com/explore-products/by-type/bottles/24oz-autopop-bottle/SAP_2225976.html",
+      "accent": "#2f6f73",
+      "specs": {
+        "mouthDiameterCm": null,
+        "capacityMl": 710,
+        "weightG": null,
+        "leakproof": null,
+        "ceramicCoated": null,
+        "lidFullyDisassemblable": null,
+        "dishwasherSafe": null,
+        "cupHolderCompatible": null,
+        "drinkingModes": []
+      },
+      "imageUrl": "https://newellbrands.imgix.net/44109edc-9df7-3c24-86ba-9661abfa663a/44109edc-9df7-3c24-86ba-9661abfa663a.jpeg",
+      "imageSourceUrl": "https://newellbrands.imgix.net/44109edc-9df7-3c24-86ba-9661abfa663a/44109edc-9df7-3c24-86ba-9661abfa663a.jpeg"
+    },
+    {
+      "id": "contigo-autoseal-bottle-473",
+      "brand": "Contigo",
+      "name": "AutoSeal�� Bottle",
+      "priceUsd": null,
+      "buyUrl": "https://www.gocontigo.com/explore-products/by-type/bottles/16oz-autoseal-bottle/SAP_2231094.html",
+      "accent": "#2f6f73",
+      "specs": {
+        "mouthDiameterCm": null,
+        "capacityMl": 473,
+        "weightG": null,
+        "leakproof": null,
+        "ceramicCoated": null,
+        "lidFullyDisassemblable": null,
+        "dishwasherSafe": null,
+        "cupHolderCompatible": null,
+        "drinkingModes": []
+      },
+      "imageUrl": "https://newellbrands.imgix.net/a63dee5b-1ad8-34ee-90f6-5e31f369ef1b/a63dee5b-1ad8-34ee-90f6-5e31f369ef1b.jpg?auto=format,compress&w=1000&h=1000",
+      "imageSourceUrl": "https://newellbrands.imgix.net/a63dee5b-1ad8-34ee-90f6-5e31f369ef1b/a63dee5b-1ad8-34ee-90f6-5e31f369ef1b.jpg?auto=format,compress&w=1000&h=1000"
+    },
+    {
+      "id": "contigo-autoseal-bottle-710",
+      "brand": "Contigo",
+      "name": "AutoSeal�� Bottle",
+      "priceUsd": null,
+      "buyUrl": "https://www.gocontigo.com/explore-products/by-type/bottles/24-oz-autoseal-bottle/SAP_2230375.html",
+      "accent": "#2f6f73",
+      "specs": {
+        "mouthDiameterCm": null,
+        "capacityMl": 710,
+        "weightG": null,
+        "leakproof": null,
+        "ceramicCoated": null,
+        "lidFullyDisassemblable": null,
+        "dishwasherSafe": null,
+        "cupHolderCompatible": null,
+        "drinkingModes": []
+      },
+      "imageUrl": "https://newellbrands.imgix.net/ff7ef6a6-7651-3815-899e-49438a41d0f1/ff7ef6a6-7651-3815-899e-49438a41d0f1.jpg?auto=format,compress&w=1000&h=1000",
+      "imageSourceUrl": "https://newellbrands.imgix.net/ff7ef6a6-7651-3815-899e-49438a41d0f1/ff7ef6a6-7651-3815-899e-49438a41d0f1.jpg?auto=format,compress&w=1000&h=1000"
+    },
+    {
+      "id": "contigo-dualsip-bottle-591",
+      "brand": "Contigo",
+      "name": "DualSip Bottle",
+      "priceUsd": null,
+      "buyUrl": "https://www.gocontigo.com/explore-products/by-type/bottles/20oz-dualsip-bottle/SAP_2225951.html",
+      "accent": "#2f6f73",
+      "specs": {
+        "mouthDiameterCm": null,
+        "capacityMl": 591,
+        "weightG": null,
+        "leakproof": null,
+        "ceramicCoated": null,
+        "lidFullyDisassemblable": null,
+        "dishwasherSafe": null,
+        "cupHolderCompatible": null,
+        "drinkingModes": []
+      },
+      "imageUrl": "https://newellbrands.imgix.net/3c49c67b-7731-322c-a709-cc269f0dabd5/3c49c67b-7731-322c-a709-cc269f0dabd5.jpg?auto=format,compress&w=1000&h=1000",
+      "imageSourceUrl": "https://newellbrands.imgix.net/3c49c67b-7731-322c-a709-cc269f0dabd5/3c49c67b-7731-322c-a709-cc269f0dabd5.jpg?auto=format,compress&w=1000&h=1000"
+    },
+    {
+      "id": "contigo-dualsip-bottle-710",
+      "brand": "Contigo",
+      "name": "DualSip Bottle",
+      "priceUsd": null,
+      "buyUrl": "https://www.gocontigo.com/explore-products/by-type/bottles/24oz-dualsip-bottle/SAP_2231091.html",
+      "accent": "#2f6f73",
+      "specs": {
+        "mouthDiameterCm": null,
+        "capacityMl": 710,
+        "weightG": null,
+        "leakproof": null,
+        "ceramicCoated": null,
+        "lidFullyDisassemblable": null,
+        "dishwasherSafe": null,
+        "cupHolderCompatible": null,
+        "drinkingModes": []
+      },
+      "imageUrl": "https://newellbrands.imgix.net/b8ea7940-f571-3d42-bc09-7b34fbcf7c26/b8ea7940-f571-3d42-bc09-7b34fbcf7c26.jpg?auto=format,compress&w=1000&h=1000",
+      "imageSourceUrl": "https://newellbrands.imgix.net/b8ea7940-f571-3d42-bc09-7b34fbcf7c26/b8ea7940-f571-3d42-bc09-7b34fbcf7c26.jpg?auto=format,compress&w=1000&h=1000"
+    },
+    {
+      "id": "contigo-dualsip-plastic-bottle-828",
+      "brand": "Contigo",
+      "name": "DualSip Plastic Bottle",
+      "priceUsd": null,
+      "buyUrl": "https://www.gocontigo.com/explore-products/by-type/bottles/28oz-dualsip-plastic-bottle/SAP_2225975.html",
+      "accent": "#2f6f73",
+      "specs": {
+        "mouthDiameterCm": null,
+        "capacityMl": 828,
+        "weightG": null,
+        "leakproof": null,
+        "ceramicCoated": null,
+        "lidFullyDisassemblable": null,
+        "dishwasherSafe": null,
+        "cupHolderCompatible": null,
+        "drinkingModes": []
+      },
+      "imageUrl": "https://newellbrands.imgix.net/c5b65b5b-091f-3a22-b91f-a7b147b3a72b/c5b65b5b-091f-3a22-b91f-a7b147b3a72b.jpg?auto=format,compress&w=1000&h=1000",
+      "imageSourceUrl": "https://newellbrands.imgix.net/c5b65b5b-091f-3a22-b91f-a7b147b3a72b/c5b65b5b-091f-3a22-b91f-a7b147b3a72b.jpg?auto=format,compress&w=1000&h=1000"
+    },
+    {
+      "id": "contigo-snapseal-bottle-414",
+      "brand": "Contigo",
+      "name": "SnapSeal�� Bottle",
+      "priceUsd": null,
+      "buyUrl": "https://www.gocontigo.com/explore-products/by-type/mugs/14-oz-snapseal-bottle/SAP_2230284.html",
+      "accent": "#2f6f73",
+      "specs": {
+        "mouthDiameterCm": null,
+        "capacityMl": 414,
+        "weightG": null,
+        "leakproof": null,
+        "ceramicCoated": null,
+        "lidFullyDisassemblable": null,
+        "dishwasherSafe": null,
+        "cupHolderCompatible": null,
+        "drinkingModes": []
+      },
+      "imageUrl": "https://newellbrands.imgix.net/99b46794-0026-3166-b07f-9cdd8b42c45b/99b46794-0026-3166-b07f-9cdd8b42c45b.jpg?auto=format,compress&w=1000&h=1000",
+      "imageSourceUrl": "https://newellbrands.imgix.net/99b46794-0026-3166-b07f-9cdd8b42c45b/99b46794-0026-3166-b07f-9cdd8b42c45b.jpg?auto=format,compress&w=1000&h=1000"
+    },
+    {
+      "id": "contigo-snapseal-bottle-473",
+      "brand": "Contigo",
+      "name": "SnapSeal�� Bottle",
+      "priceUsd": null,
+      "buyUrl": "https://www.gocontigo.com/explore-products/by-type/bottles/16-oz-snapseal-bottle/SAP_2231090.html",
+      "accent": "#2f6f73",
+      "specs": {
+        "mouthDiameterCm": null,
+        "capacityMl": 473,
+        "weightG": null,
+        "leakproof": null,
+        "ceramicCoated": null,
+        "lidFullyDisassemblable": null,
+        "dishwasherSafe": null,
+        "cupHolderCompatible": null,
+        "drinkingModes": []
+      },
+      "imageUrl": "https://newellbrands.imgix.net/991050c8-655a-3b40-8e28-41468bd913b5/991050c8-655a-3b40-8e28-41468bd913b5.jpg?auto=format,compress&w=1000&h=1000",
+      "imageSourceUrl": "https://newellbrands.imgix.net/991050c8-655a-3b40-8e28-41468bd913b5/991050c8-655a-3b40-8e28-41468bd913b5.jpg?auto=format,compress&w=1000&h=1000"
+    },
+    {
+      "id": "contigo-snapseal-bottle-710",
+      "brand": "Contigo",
+      "name": "SnapSeal�� Bottle",
+      "priceUsd": null,
+      "buyUrl": "https://www.gocontigo.com/explore-products/by-type/bottles/24oz-snapseal-bottle/SAP_2231080.html",
+      "accent": "#2f6f73",
+      "specs": {
+        "mouthDiameterCm": null,
+        "capacityMl": 710,
+        "weightG": null,
+        "leakproof": null,
+        "ceramicCoated": null,
+        "lidFullyDisassemblable": null,
+        "dishwasherSafe": null,
+        "cupHolderCompatible": null,
+        "drinkingModes": []
+      },
+      "imageUrl": "https://newellbrands.imgix.net/aea58cac-6d12-3e10-9746-fac4f4486b02/aea58cac-6d12-3e10-9746-fac4f4486b02.jpg?auto=format,compress&w=1000&h=1000",
+      "imageSourceUrl": "https://newellbrands.imgix.net/aea58cac-6d12-3e10-9746-fac4f4486b02/aea58cac-6d12-3e10-9746-fac4f4486b02.jpg?auto=format,compress&w=1000&h=1000"
+    },
+    {
+      "id": "contigo-snapseal-bottle-w-handle-591",
+      "brand": "Contigo",
+      "name": "SnapSeal�� Bottle w/Handle",
+      "priceUsd": null,
+      "buyUrl": "https://www.gocontigo.com/explore-products/by-type/bottles/20-oz-snapseal-bottle-whandle/SAP_2230299.html",
+      "accent": "#2f6f73",
+      "specs": {
+        "mouthDiameterCm": null,
+        "capacityMl": 591,
+        "weightG": null,
+        "leakproof": null,
+        "ceramicCoated": null,
+        "lidFullyDisassemblable": null,
+        "dishwasherSafe": null,
+        "cupHolderCompatible": null,
+        "drinkingModes": []
+      },
+      "imageUrl": "https://newellbrands.imgix.net/4061b104-67bd-3972-bd44-1455e4bf4459/4061b104-67bd-3972-bd44-1455e4bf4459.jpg?auto=format,compress&w=1000&h=1000",
+      "imageSourceUrl": "https://newellbrands.imgix.net/4061b104-67bd-3972-bd44-1455e4bf4459/4061b104-67bd-3972-bd44-1455e4bf4459.jpg?auto=format,compress&w=1000&h=1000"
+    },
+    {
+      "id": "contigo-snapseal-tumbler-w-straw-and-handle-887",
+      "brand": "Contigo",
+      "name": "SnapSeal�� Tumbler (w/ Straw & Handle)",
+      "priceUsd": null,
+      "buyUrl": "https://www.gocontigo.com/explore-products/by-type/tumblers/30-oz-snapseal-tumbler-w-straw-handle/SAP_2231071.html",
+      "accent": "#2f6f73",
+      "specs": {
+        "mouthDiameterCm": null,
+        "capacityMl": 887,
+        "weightG": null,
+        "leakproof": null,
+        "ceramicCoated": null,
+        "lidFullyDisassemblable": null,
+        "dishwasherSafe": null,
+        "cupHolderCompatible": null,
+        "drinkingModes": []
+      },
+      "imageUrl": "https://newellbrands.imgix.net/493b67b6-c817-3285-8f94-b5cacad7c4b0/493b67b6-c817-3285-8f94-b5cacad7c4b0.jpg?auto=format,compress&w=1000&h=1000",
+      "imageSourceUrl": "https://newellbrands.imgix.net/493b67b6-c817-3285-8f94-b5cacad7c4b0/493b67b6-c817-3285-8f94-b5cacad7c4b0.jpg?auto=format,compress&w=1000&h=1000"
+    }
+  ]
 }
