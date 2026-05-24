@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-05-24T07:12:24.138663+00:00",
+  "updatedAt": "2026-05-24T08:37:11.243756+00:00",
   "products": [
     {
       "id": "stanley-slot-quencher",
@@ -649,48 +649,6 @@
       },
       "imageUrl": "https://newellbrands.imgix.net/493b67b6-c817-3285-8f94-b5cacad7c4b0/493b67b6-c817-3285-8f94-b5cacad7c4b0.jpg?auto=format,compress&w=1000&h=1000",
       "imageSourceUrl": "https://newellbrands.imgix.net/493b67b6-c817-3285-8f94-b5cacad7c4b0/493b67b6-c817-3285-8f94-b5cacad7c4b0.jpg?auto=format,compress&w=1000&h=1000"
-    },
-    {
-      "id": "owala-tumbler-710",
-      "brand": "Owala",
-      "name": "24oz Tumbler",
-      "priceUsd": null,
-      "buyUrl": "https://owalalife.com/products/24oz-tumbler",
-      "accent": "#2f6f73",
-      "specs": {
-        "mouthDiameterCm": null,
-        "capacityMl": 710,
-        "weightG": null,
-        "leakproof": null,
-        "ceramicCoated": null,
-        "lidFullyDisassemblable": null,
-        "dishwasherSafe": null,
-        "cupHolderCompatible": null,
-        "drinkingModes": []
-      },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0439/2537/3087/files/Owala-brand-logo400x400.png?v=1760045540",
-      "imageSourceUrl": "https://cdn.shopify.com/s/files/1/0439/2537/3087/files/Owala-brand-logo400x400.png?v=1760045540"
-    },
-    {
-      "id": "owala-tumbler-1183",
-      "brand": "Owala",
-      "name": "40oz Tumbler",
-      "priceUsd": null,
-      "buyUrl": "https://owalalife.com/products/40oz-tumbler",
-      "accent": "#2f6f73",
-      "specs": {
-        "mouthDiameterCm": null,
-        "capacityMl": 1183,
-        "weightG": null,
-        "leakproof": null,
-        "ceramicCoated": null,
-        "lidFullyDisassemblable": null,
-        "dishwasherSafe": null,
-        "cupHolderCompatible": null,
-        "drinkingModes": []
-      },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0439/2537/3087/files/Owala-brand-logo400x400.png?v=1760045540",
-      "imageSourceUrl": "https://cdn.shopify.com/s/files/1/0439/2537/3087/files/Owala-brand-logo400x400.png?v=1760045540"
     },
     {
       "id": "aladdin-aladdin-aveo-water-bottle-bunny-10-01101-115-hero-jpg-v-1625097350-350",
@@ -5584,6 +5542,342 @@
       },
       "imageUrl": "https://cdn.shopify.com/s/files/1/1100/3842/files/HRV-SK-16-DSC-M_1.jpg?v=1770757632",
       "imageSourceUrl": "https://cdn.shopify.com/s/files/1/1100/3842/files/HRV-SK-16-DSC-M_1.jpg?v=1770757632"
+    },
+    {
+      "id": "owala-tumbler-710",
+      "brand": "Owala",
+      "name": "24oz Tumbler",
+      "priceUsd": 34.99,
+      "buyUrl": "https://owalalife.com/products/24oz-tumbler?Color=Giddy+Up&Material=Stainless+Steel&Size=24oz&selectionType=local",
+      "accent": "#2f6f73",
+      "specs": {
+        "mouthDiameterCm": null,
+        "capacityMl": 710,
+        "weightG": null,
+        "leakproof": null,
+        "ceramicCoated": null,
+        "lidFullyDisassemblable": null,
+        "dishwasherSafe": null,
+        "cupHolderCompatible": null,
+        "drinkingModes": []
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0439/2537/3087/files/24oz_Marlu_Giddy_Up_-_SC.png?v=1741644352",
+      "imageSourceUrl": "https://cdn.shopify.com/s/files/1/0439/2537/3087/files/24oz_Marlu_Giddy_Up_-_SC.png?v=1741644352"
+    },
+    {
+      "id": "owala-tumbler-1183",
+      "brand": "Owala",
+      "name": "40oz Tumbler",
+      "priceUsd": 31.99,
+      "buyUrl": "https://owalalife.com/products/40oz-tumbler?Color=Lost+in+Space&Material=Stainless+Steel&Size=40oz&selectionType=local",
+      "accent": "#2f6f73",
+      "specs": {
+        "mouthDiameterCm": null,
+        "capacityMl": 1183,
+        "weightG": null,
+        "leakproof": null,
+        "ceramicCoated": null,
+        "lidFullyDisassemblable": null,
+        "dishwasherSafe": null,
+        "cupHolderCompatible": null,
+        "drinkingModes": []
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0439/2537/3087/files/LostInSpace-TumblerSC-4000x4000-c38c18a.png?v=1739398999",
+      "imageSourceUrl": "https://cdn.shopify.com/s/files/1/0439/2537/3087/files/LostInSpace-TumblerSC-4000x4000-c38c18a.png?v=1739398999"
+    },
+    {
+      "id": "owala-autumn-vista-owala-710",
+      "brand": "Owala",
+      "name": "Autumn Vista - Owala 24oz",
+      "priceUsd": 29.99,
+      "buyUrl": "https://owalalife.com/products/autumn-vista?Style=FreeSip%C2%AE&Size=24oz&Color=Autumn+Vista&selectionType=local",
+      "accent": "#2f6f73",
+      "specs": {
+        "mouthDiameterCm": null,
+        "capacityMl": 710,
+        "weightG": null,
+        "leakproof": null,
+        "ceramicCoated": null,
+        "lidFullyDisassemblable": null,
+        "dishwasherSafe": null,
+        "cupHolderCompatible": null,
+        "drinkingModes": []
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0439/2537/3087/files/OW_COTS_Autumn_Vista_Special_Edition_Badge_SC-24oz_FreeSip.png?v=1757342445",
+      "imageSourceUrl": "https://cdn.shopify.com/s/files/1/0439/2537/3087/files/OW_COTS_Autumn_Vista_Special_Edition_Badge_SC-24oz_FreeSip.png?v=1757342445"
+    },
+    {
+      "id": "owala-freesip-sway-887",
+      "brand": "Owala",
+      "name": "FreeSip Sway 30oz",
+      "priceUsd": 34.99,
+      "buyUrl": "https://owalalife.com/products/freesip-sway?Size=30oz&Color=90s+Kid&Material=Stainless+steel&selectionType=local",
+      "accent": "#2f6f73",
+      "specs": {
+        "mouthDiameterCm": null,
+        "capacityMl": 887,
+        "weightG": null,
+        "leakproof": null,
+        "ceramicCoated": null,
+        "lidFullyDisassemblable": null,
+        "dishwasherSafe": null,
+        "cupHolderCompatible": null,
+        "drinkingModes": []
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0439/2537/3087/files/OW_90s_kid_30oz_FreeSip_Sway_Side.png?v=1772218716",
+      "imageSourceUrl": "https://cdn.shopify.com/s/files/1/0439/2537/3087/files/OW_90s_kid_30oz_FreeSip_Sway_Side.png?v=1772218716"
+    },
+    {
+      "id": "owala-freesip-tumbler-887",
+      "brand": "Owala",
+      "name": "FreeSip Tumbler 30oz",
+      "priceUsd": 34.99,
+      "buyUrl": "https://owalalife.com/products/freesip-tumbler?Size=30oz&Color=Rose+Quartz&Material=Stainless+Steel&selectionType=local",
+      "accent": "#2f6f73",
+      "specs": {
+        "mouthDiameterCm": null,
+        "capacityMl": 887,
+        "weightG": null,
+        "leakproof": null,
+        "ceramicCoated": null,
+        "lidFullyDisassemblable": null,
+        "dishwasherSafe": null,
+        "cupHolderCompatible": null,
+        "drinkingModes": []
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0439/2537/3087/files/OW_Web_30oz_FS_Tumbler_Rose_Quartz_Handle_Right.png?v=1768258842",
+      "imageSourceUrl": "https://cdn.shopify.com/s/files/1/0439/2537/3087/files/OW_Web_30oz_FS_Tumbler_Rose_Quartz_Handle_Right.png?v=1768258842"
+    },
+    {
+      "id": "owala-freesip-twist-710",
+      "brand": "Owala",
+      "name": "FreeSip Twist 24oz",
+      "priceUsd": 23.99,
+      "buyUrl": "https://owalalife.com/products/freesip-twist?Color=Peachy+Keen&Size=24oz&Material=Stainless+Steel&selectionType=local",
+      "accent": "#2f6f73",
+      "specs": {
+        "mouthDiameterCm": null,
+        "capacityMl": 710,
+        "weightG": null,
+        "leakproof": null,
+        "ceramicCoated": null,
+        "lidFullyDisassemblable": null,
+        "dishwasherSafe": null,
+        "cupHolderCompatible": null,
+        "drinkingModes": []
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0439/2537/3087/files/Peachy_Keen_24oz_Twist_e3cb9487-6065-488c-8de3-ce94a6165049.png?v=1753973676",
+      "imageSourceUrl": "https://cdn.shopify.com/s/files/1/0439/2537/3087/files/Peachy_Keen_24oz_Twist_e3cb9487-6065-488c-8de3-ce94a6165049.png?v=1753973676"
+    },
+    {
+      "id": "owala-freesip-water-bottle-710",
+      "brand": "Owala",
+      "name": "FreeSip Water Bottle 24oz",
+      "priceUsd": 29.99,
+      "buyUrl": "https://owalalife.com/products/freesip?Color=Out+of+the+Blue&Material=Stainless+Steel&Size=24oz&selectionType=local",
+      "accent": "#2f6f73",
+      "specs": {
+        "mouthDiameterCm": null,
+        "capacityMl": 710,
+        "weightG": null,
+        "leakproof": null,
+        "ceramicCoated": null,
+        "lidFullyDisassemblable": null,
+        "dishwasherSafe": null,
+        "cupHolderCompatible": null,
+        "drinkingModes": []
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0439/2537/3087/files/OW_out_of_the_blue_24oz_Freesip_SC_Template_5ec8d073-6de7-47a0-875e-657d63e11134.png?v=1772222501",
+      "imageSourceUrl": "https://cdn.shopify.com/s/files/1/0439/2537/3087/files/OW_out_of_the_blue_24oz_Freesip_SC_Template_5ec8d073-6de7-47a0-875e-657d63e11134.png?v=1772222501"
+    },
+    {
+      "id": "owala-freesip-water-bottle-946",
+      "brand": "Owala",
+      "name": "FreeSip Water Bottle 32oz",
+      "priceUsd": 34.99,
+      "buyUrl": "https://owalalife.com/products/freesip?Color=Peach+of+Mind&Material=Stainless+Steel&Size=32oz&selectionType=local",
+      "accent": "#2f6f73",
+      "specs": {
+        "mouthDiameterCm": null,
+        "capacityMl": 946,
+        "weightG": null,
+        "leakproof": null,
+        "ceramicCoated": null,
+        "lidFullyDisassemblable": null,
+        "dishwasherSafe": null,
+        "cupHolderCompatible": null,
+        "drinkingModes": []
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0439/2537/3087/files/OW_Peach_Of_Mind_32oz_FreeSip_SC_0508f63e-9788-49d4-ae53-70ec64aee115.png?v=1772222475",
+      "imageSourceUrl": "https://cdn.shopify.com/s/files/1/0439/2537/3087/files/OW_Peach_Of_Mind_32oz_FreeSip_SC_0508f63e-9788-49d4-ae53-70ec64aee115.png?v=1772222475"
+    },
+    {
+      "id": "owala-freesip-water-bottle-1183",
+      "brand": "Owala",
+      "name": "FreeSip Water Bottle 40oz",
+      "priceUsd": 39.99,
+      "buyUrl": "https://owalalife.com/products/freesip?Color=Out+of+the+Blue&Material=Stainless+Steel&Size=40oz&selectionType=local",
+      "accent": "#2f6f73",
+      "specs": {
+        "mouthDiameterCm": null,
+        "capacityMl": 1183,
+        "weightG": null,
+        "leakproof": null,
+        "ceramicCoated": null,
+        "lidFullyDisassemblable": null,
+        "dishwasherSafe": null,
+        "cupHolderCompatible": null,
+        "drinkingModes": []
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0439/2537/3087/files/OW_out_of_the_blue_40oz_FreeSip_SC_8b56e613-5274-4137-844d-46cc5fd498cd.png?v=1772222513",
+      "imageSourceUrl": "https://cdn.shopify.com/s/files/1/0439/2537/3087/files/OW_out_of_the_blue_40oz_FreeSip_SC_8b56e613-5274-4137-844d-46cc5fd498cd.png?v=1772222513"
+    },
+    {
+      "id": "owala-holiday-collection-owala-946",
+      "brand": "Owala",
+      "name": "Holiday Collection - Owala 32oz",
+      "priceUsd": 34.99,
+      "buyUrl": "https://owalalife.com/products/holiday-collection?Style=FreeSip%C2%AE&Size=32oz&Color=Holiday+Hygge&selectionType=local",
+      "accent": "#2f6f73",
+      "specs": {
+        "mouthDiameterCm": null,
+        "capacityMl": 946,
+        "weightG": null,
+        "leakproof": null,
+        "ceramicCoated": null,
+        "lidFullyDisassemblable": null,
+        "dishwasherSafe": null,
+        "cupHolderCompatible": null,
+        "drinkingModes": []
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0439/2537/3087/files/ow-32oz-freesip-hygge-rotating.gif?v=1759770259",
+      "imageSourceUrl": "https://cdn.shopify.com/s/files/1/0439/2537/3087/files/ow-32oz-freesip-hygge-rotating.gif?v=1759770259"
+    },
+    {
+      "id": "owala-kids-freesip-473",
+      "brand": "Owala",
+      "name": "Kids' Freesip 16oz",
+      "priceUsd": 24.99,
+      "buyUrl": "https://owalalife.com/products/kids-freesip?Size=16oz&Material=Stainless+Steel&Color=Read+My+Lips&selectionType=local",
+      "accent": "#2f6f73",
+      "specs": {
+        "mouthDiameterCm": null,
+        "capacityMl": 473,
+        "weightG": null,
+        "leakproof": null,
+        "ceramicCoated": null,
+        "lidFullyDisassemblable": null,
+        "dishwasherSafe": null,
+        "cupHolderCompatible": null,
+        "drinkingModes": []
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0439/2537/3087/files/OW_read_my_lips_16oz_Freesip_SC.png?v=1772220887",
+      "imageSourceUrl": "https://cdn.shopify.com/s/files/1/0439/2537/3087/files/OW_read_my_lips_16oz_Freesip_SC.png?v=1772220887"
+    },
+    {
+      "id": "owala-kids-tumbler-444",
+      "brand": "Owala",
+      "name": "Kids' Tumbler 15oz",
+      "priceUsd": 12.99,
+      "buyUrl": "https://owalalife.com/products/kids-tumbler?Size=15oz&Color=Skate+Park&Material=Plastic&selectionType=local",
+      "accent": "#2f6f73",
+      "specs": {
+        "mouthDiameterCm": null,
+        "capacityMl": 444,
+        "weightG": null,
+        "leakproof": null,
+        "ceramicCoated": null,
+        "lidFullyDisassemblable": null,
+        "dishwasherSafe": null,
+        "cupHolderCompatible": null,
+        "drinkingModes": []
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0439/2537/3087/files/Bambino_-_Stock_2024_-_SC_skate_park-27.png?v=1732128627",
+      "imageSourceUrl": "https://cdn.shopify.com/s/files/1/0439/2537/3087/files/Bambino_-_Stock_2024_-_SC_skate_park-27.png?v=1732128627"
+    },
+    {
+      "id": "owala-smoothsip-coffee-mug-591",
+      "brand": "Owala",
+      "name": "SmoothSip Coffee Mug 20oz",
+      "priceUsd": 24.99,
+      "buyUrl": "https://owalalife.com/products/smoothsip?Color=Cloudscape&Size=20oz&Material=Stainless+Steel&selectionType=local",
+      "accent": "#2f6f73",
+      "specs": {
+        "mouthDiameterCm": null,
+        "capacityMl": 591,
+        "weightG": null,
+        "leakproof": null,
+        "ceramicCoated": null,
+        "lidFullyDisassemblable": null,
+        "dishwasherSafe": null,
+        "cupHolderCompatible": null,
+        "drinkingModes": []
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0439/2537/3087/products/Owala_SmoothSip_Cloudscape-4000x4000-c38c18a.png?v=1762181967",
+      "imageSourceUrl": "https://cdn.shopify.com/s/files/1/0439/2537/3087/products/Owala_SmoothSip_Cloudscape-4000x4000-c38c18a.png?v=1762181967"
+    },
+    {
+      "id": "owala-smoothsip-slider-355",
+      "brand": "Owala",
+      "name": "SmoothSip Slider 12oz",
+      "priceUsd": 19.99,
+      "buyUrl": "https://owalalife.com/products/smoothsip-slider?Color=Sugar+High&Size=12oz&Material=Stainless+Steel&selectionType=local",
+      "accent": "#2f6f73",
+      "specs": {
+        "mouthDiameterCm": null,
+        "capacityMl": 355,
+        "weightG": null,
+        "leakproof": null,
+        "ceramicCoated": null,
+        "lidFullyDisassemblable": null,
+        "dishwasherSafe": null,
+        "cupHolderCompatible": null,
+        "drinkingModes": []
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0439/2537/3087/files/OW_12oz_SmoothSip_Sugar_High_Hero.png?v=1751489639",
+      "imageSourceUrl": "https://cdn.shopify.com/s/files/1/0439/2537/3087/files/OW_12oz_SmoothSip_Sugar_High_Hero.png?v=1751489639"
+    },
+    {
+      "id": "owala-smoothsip-slider-with-handle-710",
+      "brand": "Owala",
+      "name": "SmoothSip Slider with Handle 24oz",
+      "priceUsd": 34.99,
+      "buyUrl": "https://owalalife.com/products/smoothsip-slider-with-handle?Color=Burgundy+Bay&Size=24oz&Material=Stainless+Steel&selectionType=local",
+      "accent": "#2f6f73",
+      "specs": {
+        "mouthDiameterCm": null,
+        "capacityMl": 710,
+        "weightG": null,
+        "leakproof": null,
+        "ceramicCoated": null,
+        "lidFullyDisassemblable": null,
+        "dishwasherSafe": null,
+        "cupHolderCompatible": null,
+        "drinkingModes": []
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0439/2537/3087/files/OW_-_Smoothsip_Slider_Handle_24oz_-_Burgandy_Bay_-_SC.png?v=1758561904",
+      "imageSourceUrl": "https://cdn.shopify.com/s/files/1/0439/2537/3087/files/OW_-_Smoothsip_Slider_Handle_24oz_-_Burgandy_Bay_-_SC.png?v=1758561904"
+    },
+    {
+      "id": "owala-spring-revival-owala-946",
+      "brand": "Owala",
+      "name": "Spring Revival - Owala 32oz",
+      "priceUsd": 34.99,
+      "buyUrl": "https://owalalife.com/products/spring-revival?Style=FreeSip%C2%AE&Size=32oz&Color=Spring+Revival&selectionType=local",
+      "accent": "#2f6f73",
+      "specs": {
+        "mouthDiameterCm": null,
+        "capacityMl": 946,
+        "weightG": null,
+        "leakproof": null,
+        "ceramicCoated": null,
+        "lidFullyDisassemblable": null,
+        "dishwasherSafe": null,
+        "cupHolderCompatible": null,
+        "drinkingModes": []
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0439/2537/3087/files/OW_COTS_Spring_Revival_Special_Edition_SC-32oz_FS.png?v=1744300630",
+      "imageSourceUrl": "https://cdn.shopify.com/s/files/1/0439/2537/3087/files/OW_COTS_Spring_Revival_Special_Edition_SC-32oz_FS.png?v=1744300630"
     }
   ]
 }
