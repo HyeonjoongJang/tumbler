@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-05-24T09:40:36.172262+00:00",
+  "updatedAt": "2026-05-24T09:45:07.968095+00:00",
   "products": [
     {
       "id": "hydro-flask-slot-wide",
       "brand": "Hydro Flask",
-      "name": "Wide-mouth bottle slot",
+      "name": "Wide-mouth bottle slot 32oz",
       "priceUsd": 40,
       "buyUrl": "https://www.hydroflask.com/32-oz-wide-mouth-nectar-orange",
       "accent": "#4f9dd9",
@@ -29,7 +29,7 @@
     {
       "id": "yeti-slot-rambler",
       "brand": "YETI",
-      "name": "Rambler travel slot",
+      "name": "Rambler travel slot 30oz",
       "priceUsd": 42,
       "buyUrl": "https://www.yeti.com/drinkware/mugs/mug-30oz.html",
       "accent": "#d65a31",
@@ -52,7 +52,7 @@
     {
       "id": "fellow-slot-carter",
       "brand": "Fellow",
-      "name": "Carter ceramic slot",
+      "name": "Carter ceramic slot 16oz",
       "priceUsd": 35,
       "buyUrl": "https://fellowproducts.com/collections/travel-mugs/products/carter-move-mug",
       "accent": "#2f6f73",
@@ -75,7 +75,7 @@
     {
       "id": "kinto-slot-travel",
       "brand": "Kinto",
-      "name": "Travel tumbler slot",
+      "name": "Travel tumbler slot 16.9oz",
       "priceUsd": 38,
       "buyUrl": "https://kinto-usa.com/products/20941",
       "accent": "#b5744f",
@@ -98,7 +98,7 @@
     {
       "id": "zojirushi-slot-stainless",
       "brand": "Zojirushi",
-      "name": "Stainless mug slot",
+      "name": "Stainless mug slot 16.2oz",
       "priceUsd": 32,
       "buyUrl": "https://www.zojirushi.com/app/product/smsf",
       "accent": "#7a8d9b",
@@ -121,7 +121,7 @@
     {
       "id": "contigo-slot-autoseal",
       "brand": "Contigo",
-      "name": "Autoseal slot",
+      "name": "Autoseal slot 20oz",
       "priceUsd": 24,
       "buyUrl": "https://www.gocontigo.com/explore-products/mugs/autoseal-west-loop-vacuum-insulated-stainless-steel-travel-mug-with-easy-clean-lid--20-oz/SAP_2169251.html",
       "accent": "#407c87",
@@ -144,7 +144,7 @@
     {
       "id": "miir-slot-tumbler",
       "brand": "MiiR",
-      "name": "Travel tumbler slot",
+      "name": "Travel tumbler slot 20oz",
       "priceUsd": 30,
       "buyUrl": "https://www.miir.com/products/everywhere-straw-tumbler",
       "accent": "#65735f",
@@ -167,7 +167,7 @@
     {
       "id": "simple-modern-slot-trek",
       "brand": "Simple Modern",
-      "name": "Trek-style slot",
+      "name": "Trek-style slot 39.9oz",
       "priceUsd": 30,
       "buyUrl": "https://www.simplemodern.com/products/trek-tumbler-8",
       "accent": "#d18453",
@@ -191,7 +191,7 @@
     {
       "id": "brumate-slot-era",
       "brand": "BruMate",
-      "name": "Era-style slot",
+      "name": "Era-style slot 39.9oz",
       "priceUsd": 45,
       "buyUrl": "https://www.brumate.com/products/era-40oz-dune",
       "accent": "#505e86",
@@ -214,7 +214,7 @@
     {
       "id": "ello-slot-campy",
       "brand": "Ello",
-      "name": "Ceramic camp slot",
+      "name": "Ceramic camp slot 18oz",
       "priceUsd": 20,
       "buyUrl": "https://www.elloproducts.com/products/campy-18oz-vacuum-insulated-stainless-travel-mug",
       "accent": "#cb6a58",
@@ -237,7 +237,7 @@
     {
       "id": "keepcup-slot-thermal",
       "brand": "KeepCup",
-      "name": "Thermal slot",
+      "name": "Thermal slot 15.4oz",
       "priceUsd": 34,
       "buyUrl": "https://ca.keepcup.com/products/thermal-l-16oz-black",
       "accent": "#4a8f8c",
@@ -260,7 +260,7 @@
     {
       "id": "klean-kanteen-slot-tkwide",
       "brand": "Klean Kanteen",
-      "name": "TKWide-style slot",
+      "name": "TKWide-style slot 20oz",
       "priceUsd": 37,
       "buyUrl": "https://www.kleankanteen.com/products/insulated-coffee-tumbler-tkwide-20oz",
       "accent": "#78995d",
@@ -284,7 +284,7 @@
     {
       "id": "takeya-slot-actives",
       "brand": "Takeya",
-      "name": "Actives-style slot",
+      "name": "Actives-style slot 24oz",
       "priceUsd": 32,
       "buyUrl": "https://takeyausa.com/products/actives-insulated-water-bottle",
       "accent": "#3f7cac",
@@ -307,7 +307,7 @@
     {
       "id": "frank-green-slot-ceramic",
       "brand": "Frank Green",
-      "name": "Ceramic reusable bottle large slot",
+      "name": "Ceramic reusable bottle large slot 33.8oz",
       "priceUsd": 44.95,
       "buyUrl": "https://us.frankgreen.com/products/ceramic-reusable-bottle-34oz-1-000ml-lilac-haze-neon-pink",
       "accent": "#9879b8",
@@ -330,7 +330,7 @@
     {
       "id": "contigo-autopop-bottle-710",
       "brand": "Contigo",
-      "name": "AutoPop Bottle",
+      "name": "AutoPop Bottle 24oz",
       "priceUsd": 29.99,
       "buyUrl": "https://www.gocontigo.com/explore-products/by-type/bottles/24oz-autopop-bottle/SAP_2225976.html",
       "accent": "#2f6f73",
@@ -351,7 +351,7 @@
     {
       "id": "contigo-autoseal-bottle-473",
       "brand": "Contigo",
-      "name": "AutoSeal Bottle",
+      "name": "AutoSeal Bottle 16oz",
       "priceUsd": 29.99,
       "buyUrl": "https://www.gocontigo.com/explore-products/by-type/bottles/16oz-autoseal-bottle/SAP_2231094.html",
       "accent": "#2f6f73",
@@ -372,7 +372,7 @@
     {
       "id": "contigo-autoseal-bottle-710",
       "brand": "Contigo",
-      "name": "AutoSeal Bottle",
+      "name": "AutoSeal Bottle 24oz",
       "priceUsd": 34.99,
       "buyUrl": "https://www.gocontigo.com/explore-products/by-type/bottles/24-oz-autoseal-bottle/SAP_2230375.html",
       "accent": "#2f6f73",
@@ -393,7 +393,7 @@
     {
       "id": "contigo-dualsip-bottle-591",
       "brand": "Contigo",
-      "name": "DualSip Bottle",
+      "name": "DualSip Bottle 20oz",
       "priceUsd": 26.99,
       "buyUrl": "https://www.gocontigo.com/explore-products/by-type/bottles/20oz-dualsip-bottle/SAP_2225951.html",
       "accent": "#2f6f73",
@@ -414,7 +414,7 @@
     {
       "id": "contigo-dualsip-bottle-710",
       "brand": "Contigo",
-      "name": "DualSip Bottle",
+      "name": "DualSip Bottle 24oz",
       "priceUsd": 32.99,
       "buyUrl": "https://www.gocontigo.com/explore-products/by-type/bottles/24oz-dualsip-bottle/SAP_2231091.html",
       "accent": "#2f6f73",
@@ -435,7 +435,7 @@
     {
       "id": "contigo-dualsip-plastic-bottle-828",
       "brand": "Contigo",
-      "name": "DualSip Plastic Bottle",
+      "name": "DualSip Plastic Bottle 28oz",
       "priceUsd": 24.99,
       "buyUrl": "https://www.gocontigo.com/explore-products/by-type/bottles/28oz-dualsip-plastic-bottle/SAP_2225975.html",
       "accent": "#2f6f73",
@@ -456,7 +456,7 @@
     {
       "id": "contigo-snapseal-bottle-414",
       "brand": "Contigo",
-      "name": "SnapSeal Bottle",
+      "name": "SnapSeal Bottle 14oz",
       "priceUsd": 27.99,
       "buyUrl": "https://www.gocontigo.com/explore-products/by-type/mugs/14-oz-snapseal-bottle/SAP_2230284.html",
       "accent": "#2f6f73",
@@ -477,7 +477,7 @@
     {
       "id": "contigo-snapseal-bottle-473",
       "brand": "Contigo",
-      "name": "SnapSeal Bottle",
+      "name": "SnapSeal Bottle 16oz",
       "priceUsd": 29.99,
       "buyUrl": "https://www.gocontigo.com/explore-products/by-type/bottles/16-oz-snapseal-bottle/SAP_2231090.html",
       "accent": "#2f6f73",
@@ -498,7 +498,7 @@
     {
       "id": "contigo-snapseal-bottle-710",
       "brand": "Contigo",
-      "name": "SnapSeal Bottle",
+      "name": "SnapSeal Bottle 24oz",
       "priceUsd": 34.99,
       "buyUrl": "https://www.gocontigo.com/explore-products/by-type/bottles/24oz-snapseal-bottle/SAP_2231080.html",
       "accent": "#2f6f73",
@@ -519,7 +519,7 @@
     {
       "id": "contigo-snapseal-bottle-w-handle-591",
       "brand": "Contigo",
-      "name": "SnapSeal Bottle w/Handle",
+      "name": "SnapSeal Bottle w/Handle 20oz",
       "priceUsd": 32.99,
       "buyUrl": "https://www.gocontigo.com/explore-products/by-type/bottles/20-oz-snapseal-bottle-whandle/SAP_2230299.html",
       "accent": "#2f6f73",
@@ -540,7 +540,7 @@
     {
       "id": "contigo-snapseal-tumbler-w-straw-and-handle-887",
       "brand": "Contigo",
-      "name": "SnapSeal Tumbler (w/ Straw & Handle)",
+      "name": "SnapSeal Tumbler (w/ Straw & Handle) 30oz",
       "priceUsd": 34.99,
       "buyUrl": "https://www.gocontigo.com/explore-products/by-type/tumblers/30-oz-snapseal-tumbler-w-straw-handle/SAP_2231071.html",
       "accent": "#2f6f73",
@@ -2976,7 +2976,7 @@
     {
       "id": "circular-and-co-circular-and-co-reusable-water-bottle-made-from-recycled-stainless-steel-na",
       "brand": "Circular&Co",
-      "name": "Circular&Co Reusable Water Bottle – Made From Recycled Stainless Steel",
+      "name": "Circular&Co Reusable Water Bottle – Made From Recycled Stainless Steel 16.9oz",
       "priceUsd": null,
       "buyUrl": "https://circularandco.com/shop/reusable-bottle/circularco-reusable-water-bottle-made-from-recycled-stainless-steel-500ml",
       "accent": "#2f6f73",
@@ -3060,7 +3060,7 @@
     {
       "id": "circular-and-co-circular-and-co-reusable-coffee-cup-made-from-bubblegum-na",
       "brand": "Circular&Co",
-      "name": "Circular&Co. Reusable Coffee Cup – Made From Bubblegum",
+      "name": "Circular&Co. Reusable Coffee Cup – Made From Bubblegum 8oz",
       "priceUsd": null,
       "buyUrl": "https://circularandco.com/shop/reusables/circularco-reusable-coffee-cup-made-from-bubblegum-8oz-12oz",
       "accent": "#2f6f73",
@@ -3081,7 +3081,7 @@
     {
       "id": "circular-and-co-circular-and-co-reusable-coffee-cup-made-from-coffee-waste-na",
       "brand": "Circular&Co",
-      "name": "Circular&Co. Reusable Coffee Cup – Made From Coffee Waste",
+      "name": "Circular&Co. Reusable Coffee Cup – Made From Coffee Waste 8oz",
       "priceUsd": null,
       "buyUrl": "https://circularandco.com/shop/reusables/circularco-reusable-coffee-cup-made-from-coffee-waste-8oz-12oz",
       "accent": "#2f6f73",
@@ -3102,7 +3102,7 @@
     {
       "id": "circular-and-co-circular-and-co-reusable-coffee-cup-made-from-fabric-waste-na",
       "brand": "Circular&Co",
-      "name": "Circular&Co. Reusable Coffee Cup – Made From Fabric Waste",
+      "name": "Circular&Co. Reusable Coffee Cup – Made From Fabric Waste 8oz",
       "priceUsd": null,
       "buyUrl": "https://circularandco.com/shop/reusables/circularco-reusable-coffee-cup-made-from-fabric-waste-8oz-12oz",
       "accent": "#2f6f73",
@@ -3123,7 +3123,7 @@
     {
       "id": "circular-and-co-circular-and-co-reusable-coffee-cup-made-from-paper-cups-na",
       "brand": "Circular&Co",
-      "name": "Circular&Co. Reusable Coffee Cup – Made From Paper Cups",
+      "name": "Circular&Co. Reusable Coffee Cup – Made From Paper Cups 8oz",
       "priceUsd": null,
       "buyUrl": "https://circularandco.com/shop/reusables/circularco-reusable-coffee-cup-made-from-paper-cups-8oz-12oz",
       "accent": "#2f6f73",
@@ -3144,7 +3144,7 @@
     {
       "id": "circular-and-co-circular-and-co-reusable-coffee-cup-made-from-traceable-marine-plastic-na",
       "brand": "Circular&Co",
-      "name": "Circular&Co. Reusable Coffee Cup – Made From Traceable Marine Plastic",
+      "name": "Circular&Co. Reusable Coffee Cup – Made From Traceable Marine Plastic 8oz",
       "priceUsd": null,
       "buyUrl": "https://circularandco.com/shop/reusables/circularco-reusable-coffee-cup-made-from-traceable-marine-plastic-8oz-12oz",
       "accent": "#2f6f73",
@@ -3165,7 +3165,7 @@
     {
       "id": "circular-and-co-circular-and-co-reusable-coffee-cup-made-from-trainers-na",
       "brand": "Circular&Co",
-      "name": "Circular&Co. Reusable Coffee Cup – Made From Trainers",
+      "name": "Circular&Co. Reusable Coffee Cup – Made From Trainers 8oz",
       "priceUsd": null,
       "buyUrl": "https://circularandco.com/shop/reusables/circularco-reusable-coffee-cup-made-from-trainers-8oz-12oz",
       "accent": "#2f6f73",
@@ -3186,7 +3186,7 @@
     {
       "id": "ecovessel-insulated-straw-water-bottle-reusable-stainless-steel-bottle-with-straw-top-ecovessel-na",
       "brand": "EcoVessel",
-      "name": "Insulated Straw Water Bottle - Reusable Stainless Steel Bottle with Straw Top – EcoVessel",
+      "name": "Insulated Straw Water Bottle - Reusable Stainless Steel Bottle with Straw Top – EcoVessel 24oz",
       "priceUsd": null,
       "buyUrl": "https://www.ecovessel.com/products/the-new-summit-stainless-steel-insulated-water-bottle-with-straw-24oz",
       "accent": "#2f6f73",
@@ -3774,7 +3774,7 @@
     {
       "id": "ember-ember-bbxb220611-6oz-bottle-jpg-v-1762439556-na",
       "brand": "Ember",
-      "name": "ember_BBXB220611_6oz_bottle.jpg?v=1762439556",
+      "name": "ember_BBXB220611_6oz_bottle.jpg?v=1762439556 6oz",
       "priceUsd": null,
       "buyUrl": "https://cdn.shopify.com/s/files/1/1080/6594/products/ember_BBXB220611_6oz_bottle.jpg?v=1762439556",
       "accent": "#2f6f73",
@@ -6861,7 +6861,7 @@
     {
       "id": "stanley-adventure-quencher-h2-0-travel-tumbler-na",
       "brand": "Stanley",
-      "name": "Adventure Quencher H2.0 Travel Tumbler",
+      "name": "Adventure Quencher H2.0 Travel Tumbler 40oz",
       "priceUsd": null,
       "buyUrl": "https://www.stanley1913.com/products/adventure-quencher-travel-tumbler-40-oz",
       "accent": "#2f6f73",
@@ -6882,7 +6882,7 @@
     {
       "id": "stanley-adventure-to-go-bottle-na",
       "brand": "Stanley",
-      "name": "Adventure To-Go Bottle",
+      "name": "Adventure To-Go Bottle 44.8oz",
       "priceUsd": null,
       "buyUrl": "https://www.stanley1913.com/products/adventure-to-go-bottle-1-4-qt",
       "accent": "#2f6f73",
@@ -6945,7 +6945,7 @@
     {
       "id": "stanley-adventure-tough-to-tip-admiral-s-mug-na",
       "brand": "Stanley",
-      "name": "Adventure Tough-To-Tip Admiral's Mug",
+      "name": "Adventure Tough-To-Tip Admiral's Mug 20oz",
       "priceUsd": null,
       "buyUrl": "https://www.stanley1913.com/products/adventure-tough-to-tip-admirals-mug-20-oz",
       "accent": "#2f6f73",
@@ -7008,7 +7008,7 @@
     {
       "id": "stanley-classic-bottle-opener-beer-stein-na",
       "brand": "Stanley",
-      "name": "Classic Bottle Opener Beer Stein",
+      "name": "Classic Bottle Opener Beer Stein 24oz",
       "priceUsd": null,
       "buyUrl": "https://www.stanley1913.com/products/classic-bottle-opener-beer-stein-24-oz",
       "accent": "#2f6f73",
@@ -7050,7 +7050,7 @@
     {
       "id": "stanley-classic-hip-flask-na",
       "brand": "Stanley",
-      "name": "Classic Hip Flask",
+      "name": "Classic Hip Flask 8oz",
       "priceUsd": null,
       "buyUrl": "https://www.stanley1913.com/products/classic-easy-fill-wide-mouth-flask-8-oz",
       "accent": "#2f6f73",
@@ -7134,7 +7134,7 @@
     {
       "id": "stanley-classic-legendary-bottle-sale-na",
       "brand": "Stanley",
-      "name": "Classic Legendary Bottle Sale",
+      "name": "Classic Legendary Bottle Sale 35.2oz",
       "priceUsd": null,
       "buyUrl": "https://www.stanley1913.com/products/classic-legendary-bottle-1-1-qt-1",
       "accent": "#2f6f73",
@@ -7176,7 +7176,7 @@
     {
       "id": "stanley-classic-legendary-vacuum-insulated-bottle-na",
       "brand": "Stanley",
-      "name": "Classic Legendary Vacuum Insulated Bottle",
+      "name": "Classic Legendary Vacuum Insulated Bottle 64oz",
       "priceUsd": null,
       "buyUrl": "https://www.stanley1913.com/products/classic-legendary-bottle-2-0-qt",
       "accent": "#2f6f73",
@@ -7197,7 +7197,7 @@
     {
       "id": "stanley-classic-legendary-vacuum-insulated-water-bottle-na",
       "brand": "Stanley",
-      "name": "Classic Legendary Vacuum Insulated Water Bottle",
+      "name": "Classic Legendary Vacuum Insulated Water Bottle 20oz",
       "priceUsd": null,
       "buyUrl": "https://www.stanley1913.com/products/classic-legendary-bottle-20-oz",
       "accent": "#2f6f73",
@@ -7218,7 +7218,7 @@
     {
       "id": "stanley-classic-vacuum-bottle-stopper-pre-2002-na",
       "brand": "Stanley",
-      "name": "Classic Vacuum Bottle Stopper (Pre-2002)",
+      "name": "Classic Vacuum Bottle Stopper (Pre-2002) 64067.3oz",
       "priceUsd": null,
       "buyUrl": "https://www.stanley1913.com/products/classic-vacuum-bottle-stopper-pre-2002-1-qt-to-2qt",
       "accent": "#2f6f73",
@@ -7239,7 +7239,7 @@
     {
       "id": "stanley-coffee-mug-w-integrated-french-press-na",
       "brand": "Stanley",
-      "name": "Coffee Mug w/ Integrated French Press",
+      "name": "Coffee Mug w/ Integrated French Press 16oz",
       "priceUsd": null,
       "buyUrl": "https://www.stanley1913.com/products/classic-travel-mug-french-press-16-oz",
       "accent": "#2f6f73",
@@ -7407,7 +7407,7 @@
     {
       "id": "stanley-quencher-h2-0-travel-tumbler-na",
       "brand": "Stanley",
-      "name": "Quencher H2.0 Travel Tumbler",
+      "name": "Quencher H2.0 Travel Tumbler 20oz",
       "priceUsd": null,
       "buyUrl": "https://www.stanley1913.com/products/adventure-quencher-travel-tumbler-20-oz",
       "accent": "#2f6f73",
@@ -7764,7 +7764,7 @@
     {
       "id": "stanley-the-aerolight-transit-bottle-na",
       "brand": "Stanley",
-      "name": "The AeroLight Transit Bottle",
+      "name": "The AeroLight Transit Bottle 16oz",
       "priceUsd": 35.0,
       "buyUrl": "https://www.stanley1913.com/products/stanley-1913-x-nest-aerolight-transit-flip-top-mug-16-oz-community?variant=53973986279784",
       "accent": "#2f6f73",
@@ -8436,7 +8436,7 @@
     {
       "id": "stanley-the-iceflow-flip-straw-tumbler-na",
       "brand": "Stanley",
-      "name": "The IceFlow Flip Straw Tumbler",
+      "name": "The IceFlow Flip Straw Tumbler 20oz",
       "priceUsd": 42.0,
       "buyUrl": "https://www.stanley1913.com/products/the-iceflow-flip-straw-tumbler-20-oz",
       "accent": "#2f6f73",
@@ -9045,7 +9045,7 @@
     {
       "id": "stanley-the-quick-flip-go-water-bottle-na",
       "brand": "Stanley",
-      "name": "The Quick Flip Go Water Bottle",
+      "name": "The Quick Flip Go Water Bottle 24oz",
       "priceUsd": null,
       "buyUrl": "https://www.stanley1913.com/products/the-quick-flip-go-bottle-24-oz",
       "accent": "#2f6f73",
