@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-05-23T04:33:24.674Z",
+  "updatedAt": "2026-05-24T05:12:38.067Z",
   "products": [
     {
       "id": "stanley-slot-quencher",
@@ -649,6 +649,342 @@
       },
       "imageUrl": "https://newellbrands.imgix.net/493b67b6-c817-3285-8f94-b5cacad7c4b0/493b67b6-c817-3285-8f94-b5cacad7c4b0.jpg?auto=format,compress&w=1000&h=1000",
       "imageSourceUrl": "https://newellbrands.imgix.net/493b67b6-c817-3285-8f94-b5cacad7c4b0/493b67b6-c817-3285-8f94-b5cacad7c4b0.jpg?auto=format,compress&w=1000&h=1000"
+    },
+    {
+      "id": "owala-tumbler-710",
+      "brand": "Owala",
+      "name": "24oz Tumbler",
+      "priceUsd": null,
+      "buyUrl": "https://owalalife.com/products/24oz-tumbler",
+      "accent": "#2f6f73",
+      "specs": {
+        "mouthDiameterCm": null,
+        "capacityMl": 710,
+        "weightG": null,
+        "leakproof": null,
+        "ceramicCoated": null,
+        "lidFullyDisassemblable": null,
+        "dishwasherSafe": null,
+        "cupHolderCompatible": null,
+        "drinkingModes": []
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0439/2537/3087/files/Owala-brand-logo400x400.png?v=1760045540",
+      "imageSourceUrl": "https://cdn.shopify.com/s/files/1/0439/2537/3087/files/Owala-brand-logo400x400.png?v=1760045540"
+    },
+    {
+      "id": "owala-tumbler-1183",
+      "brand": "Owala",
+      "name": "40oz Tumbler",
+      "priceUsd": null,
+      "buyUrl": "https://owalalife.com/products/40oz-tumbler",
+      "accent": "#2f6f73",
+      "specs": {
+        "mouthDiameterCm": null,
+        "capacityMl": 1183,
+        "weightG": null,
+        "leakproof": null,
+        "ceramicCoated": null,
+        "lidFullyDisassemblable": null,
+        "dishwasherSafe": null,
+        "cupHolderCompatible": null,
+        "drinkingModes": []
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0439/2537/3087/files/Owala-brand-logo400x400.png?v=1760045540",
+      "imageSourceUrl": "https://cdn.shopify.com/s/files/1/0439/2537/3087/files/Owala-brand-logo400x400.png?v=1760045540"
+    },
+    {
+      "id": "owala-autumn-vista-owala-na",
+      "brand": "Owala",
+      "name": "Autumn Vista - Owala",
+      "priceUsd": null,
+      "buyUrl": "https://owalalife.com/products/autumn-vista",
+      "accent": "#2f6f73",
+      "specs": {
+        "mouthDiameterCm": null,
+        "capacityMl": null,
+        "weightG": null,
+        "leakproof": null,
+        "ceramicCoated": null,
+        "lidFullyDisassemblable": null,
+        "dishwasherSafe": null,
+        "cupHolderCompatible": null,
+        "drinkingModes": []
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0439/2537/3087/files/Owala-brand-logo400x400.png?v=1760045540",
+      "imageSourceUrl": "https://cdn.shopify.com/s/files/1/0439/2537/3087/files/Owala-brand-logo400x400.png?v=1760045540"
+    },
+    {
+      "id": "owala-freesip-sway-na",
+      "brand": "Owala",
+      "name": "FreeSip Sway",
+      "priceUsd": null,
+      "buyUrl": "https://owalalife.com/products/freesip-sway",
+      "accent": "#2f6f73",
+      "specs": {
+        "mouthDiameterCm": null,
+        "capacityMl": null,
+        "weightG": null,
+        "leakproof": null,
+        "ceramicCoated": null,
+        "lidFullyDisassemblable": null,
+        "dishwasherSafe": null,
+        "cupHolderCompatible": null,
+        "drinkingModes": []
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0439/2537/3087/files/Owala-brand-logo400x400.png?v=1760045540",
+      "imageSourceUrl": "https://cdn.shopify.com/s/files/1/0439/2537/3087/files/Owala-brand-logo400x400.png?v=1760045540"
+    },
+    {
+      "id": "owala-freesip-tumbler-na",
+      "brand": "Owala",
+      "name": "FreeSip Tumbler",
+      "priceUsd": null,
+      "buyUrl": "https://owalalife.com/products/freesip-tumbler",
+      "accent": "#2f6f73",
+      "specs": {
+        "mouthDiameterCm": null,
+        "capacityMl": null,
+        "weightG": null,
+        "leakproof": null,
+        "ceramicCoated": null,
+        "lidFullyDisassemblable": null,
+        "dishwasherSafe": null,
+        "cupHolderCompatible": null,
+        "drinkingModes": []
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0439/2537/3087/files/Owala-brand-logo400x400.png?v=1760045540",
+      "imageSourceUrl": "https://cdn.shopify.com/s/files/1/0439/2537/3087/files/Owala-brand-logo400x400.png?v=1760045540"
+    },
+    {
+      "id": "owala-freesip-twist-na",
+      "brand": "Owala",
+      "name": "FreeSip Twist",
+      "priceUsd": null,
+      "buyUrl": "https://owalalife.com/products/freesip-twist",
+      "accent": "#2f6f73",
+      "specs": {
+        "mouthDiameterCm": null,
+        "capacityMl": null,
+        "weightG": null,
+        "leakproof": null,
+        "ceramicCoated": null,
+        "lidFullyDisassemblable": null,
+        "dishwasherSafe": null,
+        "cupHolderCompatible": null,
+        "drinkingModes": []
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0439/2537/3087/files/Owala-brand-logo400x400.png?v=1760045540",
+      "imageSourceUrl": "https://cdn.shopify.com/s/files/1/0439/2537/3087/files/Owala-brand-logo400x400.png?v=1760045540"
+    },
+    {
+      "id": "owala-freesip-water-bottle-na",
+      "brand": "Owala",
+      "name": "FreeSip Water Bottle",
+      "priceUsd": null,
+      "buyUrl": "https://owalalife.com/products/freesip",
+      "accent": "#2f6f73",
+      "specs": {
+        "mouthDiameterCm": null,
+        "capacityMl": null,
+        "weightG": null,
+        "leakproof": null,
+        "ceramicCoated": null,
+        "lidFullyDisassemblable": null,
+        "dishwasherSafe": null,
+        "cupHolderCompatible": null,
+        "drinkingModes": []
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0439/2537/3087/files/Owala-brand-logo400x400.png?v=1760045540",
+      "imageSourceUrl": "https://cdn.shopify.com/s/files/1/0439/2537/3087/files/Owala-brand-logo400x400.png?v=1760045540"
+    },
+    {
+      "id": "owala-holiday-collection-owala-na",
+      "brand": "Owala",
+      "name": "Holiday Collection - Owala",
+      "priceUsd": null,
+      "buyUrl": "https://owalalife.com/products/holiday-collection",
+      "accent": "#2f6f73",
+      "specs": {
+        "mouthDiameterCm": null,
+        "capacityMl": null,
+        "weightG": null,
+        "leakproof": null,
+        "ceramicCoated": null,
+        "lidFullyDisassemblable": null,
+        "dishwasherSafe": null,
+        "cupHolderCompatible": null,
+        "drinkingModes": []
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0439/2537/3087/files/Owala-brand-logo400x400.png?v=1760045540",
+      "imageSourceUrl": "https://cdn.shopify.com/s/files/1/0439/2537/3087/files/Owala-brand-logo400x400.png?v=1760045540"
+    },
+    {
+      "id": "owala-kids-freesip-na",
+      "brand": "Owala",
+      "name": "Kids' Freesip",
+      "priceUsd": null,
+      "buyUrl": "https://owalalife.com/products/kids-freesip",
+      "accent": "#2f6f73",
+      "specs": {
+        "mouthDiameterCm": null,
+        "capacityMl": null,
+        "weightG": null,
+        "leakproof": null,
+        "ceramicCoated": null,
+        "lidFullyDisassemblable": null,
+        "dishwasherSafe": null,
+        "cupHolderCompatible": null,
+        "drinkingModes": []
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0439/2537/3087/files/Owala-brand-logo400x400.png?v=1760045540",
+      "imageSourceUrl": "https://cdn.shopify.com/s/files/1/0439/2537/3087/files/Owala-brand-logo400x400.png?v=1760045540"
+    },
+    {
+      "id": "owala-kids-tumbler-na",
+      "brand": "Owala",
+      "name": "Kids' Tumbler",
+      "priceUsd": null,
+      "buyUrl": "https://owalalife.com/products/kids-tumbler",
+      "accent": "#2f6f73",
+      "specs": {
+        "mouthDiameterCm": null,
+        "capacityMl": null,
+        "weightG": null,
+        "leakproof": null,
+        "ceramicCoated": null,
+        "lidFullyDisassemblable": null,
+        "dishwasherSafe": null,
+        "cupHolderCompatible": null,
+        "drinkingModes": []
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0439/2537/3087/files/Owala-brand-logo400x400.png?v=1760045540",
+      "imageSourceUrl": "https://cdn.shopify.com/s/files/1/0439/2537/3087/files/Owala-brand-logo400x400.png?v=1760045540"
+    },
+    {
+      "id": "owala-smoothsip-coffee-mug-na",
+      "brand": "Owala",
+      "name": "SmoothSip Coffee Mug",
+      "priceUsd": null,
+      "buyUrl": "https://owalalife.com/products/smoothsip",
+      "accent": "#2f6f73",
+      "specs": {
+        "mouthDiameterCm": null,
+        "capacityMl": null,
+        "weightG": null,
+        "leakproof": null,
+        "ceramicCoated": null,
+        "lidFullyDisassemblable": null,
+        "dishwasherSafe": null,
+        "cupHolderCompatible": null,
+        "drinkingModes": []
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0439/2537/3087/files/Owala-brand-logo400x400.png?v=1760045540",
+      "imageSourceUrl": "https://cdn.shopify.com/s/files/1/0439/2537/3087/files/Owala-brand-logo400x400.png?v=1760045540"
+    },
+    {
+      "id": "owala-smoothsip-slider-na",
+      "brand": "Owala",
+      "name": "SmoothSip Slider",
+      "priceUsd": null,
+      "buyUrl": "https://owalalife.com/products/smoothsip-slider",
+      "accent": "#2f6f73",
+      "specs": {
+        "mouthDiameterCm": null,
+        "capacityMl": null,
+        "weightG": null,
+        "leakproof": null,
+        "ceramicCoated": null,
+        "lidFullyDisassemblable": null,
+        "dishwasherSafe": null,
+        "cupHolderCompatible": null,
+        "drinkingModes": []
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0439/2537/3087/files/Owala-brand-logo400x400.png?v=1760045540",
+      "imageSourceUrl": "https://cdn.shopify.com/s/files/1/0439/2537/3087/files/Owala-brand-logo400x400.png?v=1760045540"
+    },
+    {
+      "id": "owala-smoothsip-slider-with-handle-na",
+      "brand": "Owala",
+      "name": "SmoothSip Slider with Handle",
+      "priceUsd": null,
+      "buyUrl": "https://owalalife.com/products/smoothsip-slider-with-handle",
+      "accent": "#2f6f73",
+      "specs": {
+        "mouthDiameterCm": null,
+        "capacityMl": null,
+        "weightG": null,
+        "leakproof": null,
+        "ceramicCoated": null,
+        "lidFullyDisassemblable": null,
+        "dishwasherSafe": null,
+        "cupHolderCompatible": null,
+        "drinkingModes": []
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0439/2537/3087/files/Owala-brand-logo400x400.png?v=1760045540",
+      "imageSourceUrl": "https://cdn.shopify.com/s/files/1/0439/2537/3087/files/Owala-brand-logo400x400.png?v=1760045540"
+    },
+    {
+      "id": "owala-soccer-special-edition-bottles-na",
+      "brand": "Owala",
+      "name": "Soccer Special Edition Bottles",
+      "priceUsd": null,
+      "buyUrl": "https://owalalife.com/products/soccer",
+      "accent": "#2f6f73",
+      "specs": {
+        "mouthDiameterCm": null,
+        "capacityMl": null,
+        "weightG": null,
+        "leakproof": null,
+        "ceramicCoated": null,
+        "lidFullyDisassemblable": null,
+        "dishwasherSafe": null,
+        "cupHolderCompatible": null,
+        "drinkingModes": []
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0439/2537/3087/files/Owala-brand-logo400x400.png?v=1760045540",
+      "imageSourceUrl": "https://cdn.shopify.com/s/files/1/0439/2537/3087/files/Owala-brand-logo400x400.png?v=1760045540"
+    },
+    {
+      "id": "owala-spring-revival-owala-na",
+      "brand": "Owala",
+      "name": "Spring Revival - Owala",
+      "priceUsd": null,
+      "buyUrl": "https://owalalife.com/products/spring-revival",
+      "accent": "#2f6f73",
+      "specs": {
+        "mouthDiameterCm": null,
+        "capacityMl": null,
+        "weightG": null,
+        "leakproof": null,
+        "ceramicCoated": null,
+        "lidFullyDisassemblable": null,
+        "dishwasherSafe": null,
+        "cupHolderCompatible": null,
+        "drinkingModes": []
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0439/2537/3087/files/Owala-brand-logo400x400.png?v=1760045540",
+      "imageSourceUrl": "https://cdn.shopify.com/s/files/1/0439/2537/3087/files/Owala-brand-logo400x400.png?v=1760045540"
+    },
+    {
+      "id": "owala-wicked-x-owala-na",
+      "brand": "Owala",
+      "name": "Wicked x Owala",
+      "priceUsd": null,
+      "buyUrl": "https://owalalife.com/products/wicked",
+      "accent": "#2f6f73",
+      "specs": {
+        "mouthDiameterCm": null,
+        "capacityMl": null,
+        "weightG": null,
+        "leakproof": null,
+        "ceramicCoated": null,
+        "lidFullyDisassemblable": null,
+        "dishwasherSafe": null,
+        "cupHolderCompatible": null,
+        "drinkingModes": []
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0439/2537/3087/files/Owala-brand-logo400x400.png?v=1760045540",
+      "imageSourceUrl": "https://cdn.shopify.com/s/files/1/0439/2537/3087/files/Owala-brand-logo400x400.png?v=1760045540"
     }
   ]
 }
