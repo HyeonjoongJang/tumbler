@@ -165,6 +165,15 @@ h1 {
   line-height: 1.55;
 }
 
+.prototype-note summary {
+  cursor: pointer;
+  font-weight: 800;
+}
+
+.prototype-note span {
+  display: block;
+}
+
 .app-shell {
   display: grid;
   grid-template-columns: minmax(280px, 350px) minmax(0, 1fr);
