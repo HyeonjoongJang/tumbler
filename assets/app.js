@@ -854,6 +854,9 @@
       ? `<img src="${escapeHtml(product.imageUrl)}" alt="${escapeHtml(productName(product))}">`
       : "<span></span>";
     const hasBuyUrl = product.buyUrl && product.buyUrl !== "#";
+    const hasKnownPrice = knownNumber(product.priceUsd);
+    const priceText = hasKnownPrice ? `$${Number(product.priceUsd).toFixed(2).replace(/\.00$/, "")}` : t.options.unknown;
+    const priceUnit = hasKnownPrice ? "USD" : "";
 
     template.innerHTML = `
       <div class="row-product">
@@ -880,8 +883,8 @@
         ${metricCell(tableCopy.cup, formatValue("cupHolderCompatible", product.specs.cupHolderCompatible), "cup")}
       </div>
       <div class="row-price">
-        <strong>$${product.priceUsd}</strong>
-        <span>USD</span>
+        <strong>${priceText}</strong>
+        <span>${priceUnit}</span>
       </div>
       <div class="row-actions">
         <a class="buy-link" href="${hasBuyUrl ? escapeHtml(product.buyUrl) : "#"}" ${hasBuyUrl ? 'target="_blank" rel="noreferrer"' : ""} data-disabled-buy="${String(!hasBuyUrl)}">${t.card.buy}</a>
